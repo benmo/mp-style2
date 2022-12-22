@@ -1647,3 +1647,8 @@ INPUT.occE::-ms-clear {
     display: block !important;
     padding: 2px 0px 0px 0px;
 }
+
+/* Override */
+.dxm-main .dxm-horizontal {
+background: #bdbdbd!important;
+}

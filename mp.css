@@ -617,7 +617,7 @@ TABLE.grdHierarchy TH {
 }
 .ListView tr.RowDark{
 	color:#000000;
-	background-color:#F0F8FF;	
+	background-color:#ebebeb;	
 	text-decoration:none;		
 }
 .ListView tr.RowOver{
@@ -627,7 +627,7 @@ TABLE.grdHierarchy TH {
 }
 .ListView tr.RowSelect{
 	color:#FFFFFF;
-	background-color:#316ac5;	
+	background-color:#8d1926;	
 	text-decoration:none;		
 }
 .ListView td{

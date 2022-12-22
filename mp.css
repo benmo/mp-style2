@@ -1650,10 +1650,14 @@ INPUT.occE::-ms-clear {
 
 /* Override */
 .dxm-main {
-background: ##76a382!important;
+background: #92c4f0!important;
 }
 
 
 .dxm-selected {
-background: #b61f34!important;
+background: #2293f5!important;
+}
+
+.dxm-hovered {
+background: #5faff5!important;
 }

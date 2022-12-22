@@ -144,7 +144,7 @@ INPUT.EasyDateInputText::-ms-clear {
 	border-bottom: #ff0000 3px solid;
 }
 .SiteTitle{
-	background-color: #669cc2;
+	background-color: #a8a8a8;
 	height: 20px; 
 	padding-right: 10px;
 	color:White;
@@ -679,7 +679,7 @@ TABLE.grdHierarchy TH {
 	font-weight:bold;
 	color:White;
 	text-align:right;
-	background-color:#669CC2;
+	background-color:#a8a8a8;
 	height:20px;
 	width:440px;
 	border:solid 1px black;
@@ -1373,7 +1373,7 @@ DIV.legend
 	border:1px solid black;
 	margin-top:2px;
 	margin-bottom:2px;
-	background-color:#669CC2;
+	background-color:#a8a8a8;
 	color:White;
 	text-align:center;
 }

@@ -1649,6 +1649,6 @@ INPUT.occE::-ms-clear {
 }
 
 /* Override */
-.dxm-main .dxm-horizontal {
+.dxm-main {
 background: #bdbdbd!important;
 }

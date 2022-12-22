@@ -240,12 +240,12 @@ INPUT.EasyDateInputText::-ms-clear {
 	height: 20px;
 	border-top:1px solid #BDE1FA;
 	border-bottom:1px solid #5296C6;
-	background:url('images/disclaimergradient.gif');
+	background:url('http://mediapro.gbm.local/images/disclaimergradient.gif');
 	background-repeat:repeat-x;
 }
 
 .TDHeader{
-	background-image:url('images/SiteHeader_Gradient_Filler.jpg');
+	background-image:url('http://mediapro.gbm.local/images/SiteHeader_Gradient_Filler.jpg');
 	background-repeat:repeat-x;
 }
 
@@ -263,7 +263,7 @@ INPUT.EasyDateInputText::-ms-clear {
 
 TD.selected {
 	border:1px solid black;	
-	background:url('images/selectiongradient.gif');
+	background:url('http://mediapro.gbm.local/images/selectiongradient.gif');
 	color:Black;
 }
 
@@ -374,7 +374,7 @@ TD.selected {
 {
 	height: 50px;
 	width: 60px;	
-	background:url('images/selectiongradient.gif');
+	background:url('http://mediapro.gbm.local/images/selectiongradient.gif');
 	background-repeat:repeat;   
 	background-color:#7FC3F2;
 	color:Black;
@@ -388,7 +388,7 @@ TD.selected {
 .bgm_copiedCell{
 	height: 40px;
 	width: 60px;
-	background:url('images/selectiongradient.gif');
+	background:url('http://mediapro.gbm.local/images/selectiongradient.gif');
 	color:Black;
     border:#000000 1px dashed;
 }
@@ -707,7 +707,7 @@ TABLE.grdHierarchy TH {
 
 .DivHeader{
 	cursor:move;
-	background:url('images/disclaimergradient.gif');
+	background:url('http://mediapro.gbm.local/images/disclaimergradient.gif');
 	background-repeat:repeat-x;
 	height:18px;		
 	background-color: #82C6F6;

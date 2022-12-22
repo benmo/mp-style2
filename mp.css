@@ -152,7 +152,7 @@ INPUT.EasyDateInputText::-ms-clear {
 	text-align:center
 }
 .SiteHeader{
-	background-image: url(images/Image1_1x1.gif);
+	background-image: url(http://mediapro.gbm.local/images/Image1_1x1.gif);
 	background-repeat: no-repeat;
 	background-position: left top;
 	padding-right: 20px;
@@ -160,7 +160,7 @@ INPUT.EasyDateInputText::-ms-clear {
 .ToolBar{	  
 	border-left:1px solid #808080;
 	border-right:1px solid #808080;
-	background-image: url(images/toolbarBgH.gif)	
+	background-image: url(http://mediapro.gbm.local/images/toolbarBgH.gif)	
 }
 .ToolBarbutton{			
 	padding-top: 1px;
@@ -806,13 +806,13 @@ TABLE.grdHierarchy TH {
 	text-align:center;  	         
 }
 .EasyTab.On{	
-	background-image:url(images/tabstrip/tabMiddleOn.gif);	
+	background-image:url(http://mediapro.gbm.local/images/tabstrip/tabMiddleOn.gif);	
 	background-repeat:repeat-x;
 	padding-top:4px; 
 	height:22px; 
 }
 .EasyTab.Off {
-    background-image:url(images/tabstrip/tabMiddleOff.gif);
+    background-image:url(http://mediapro.gbm.local/images/tabstrip/tabMiddleOff.gif);
     margin-top:2px;
     padding-top:3px;
     height:19px;
@@ -824,20 +824,20 @@ TABLE.grdHierarchy TH {
 }
 .EasyTabSide.Left.Off {
     margin-top:2px;	
-    background-image:url(images/tabstrip/tabLeftOff.gif);
+    background-image:url(http://mediapro.gbm.local/images/tabstrip/tabLeftOff.gif);
     height:19px;	
 }
 .EasyTabSide.Left.On {
-    background-image:url(images/tabstrip/tabLeftOn.gif);	
+    background-image:url(http://mediapro.gbm.local/images/tabstrip/tabLeftOn.gif);	
     height:22px;
 }
 .EasyTabSide.Right.Off {
     margin-top:2px;	
-    background-image:url(images/tabstrip/tabRightOff.gif);
+    background-image:url(http://mediapro.gbm.local/images/tabstrip/tabRightOff.gif);
     height:19px;	
 }
 .EasyTabSide.Right.On {
-    background-image:url(images/tabstrip/tabRightOn.gif);	
+    background-image:url(http://mediapro.gbm.local/images/tabstrip/tabRightOn.gif);	
     height:22px;
 }
 

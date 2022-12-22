@@ -446,7 +446,7 @@ TD.selected {
 /* This item is the "div" that pops up underneath the main menu item */
 .aspMenu {
 	border:1px solid black;
-	background-image:url('/Images/ItemsBg.gif');
+	background-image:url('http://mediapro.gbm.local/images/ItemsBg.gif');
 	background-repeat:repeat-y;
 	z-index:2000;
 }
@@ -494,7 +494,7 @@ TD.selected {
 
 /* This is the top-level menu despite the name */
 .aspLevelMenuSubItem{
-	background-image:url('/Images/menuitemgradient.gif');
+	background-image:url('http://mediapro.gbm.local/images/menuitemgradient.gif');
 	color:White;
 }
 
@@ -935,7 +935,7 @@ DIV.contextmenu
 	cursor:pointer;
 	background-color:#ededed;
 	visibility:hidden;
-	background-image:url('../images/contextmenugradient.gif');
+	background-image:url('..http://mediapro.gbm.local/images/contextmenugradient.gif');
 	background-repeat:repeat-y;
 	padding-bottom:10px
 }
@@ -976,12 +976,12 @@ DIV.contextmenuitemselected
 	width:100%;
 	
 	background-color:white;
-	background-image:url('../images/contextmenugradientselected.gif');
+	background-image:url('..http://mediapro.gbm.local/images/contextmenugradientselected.gif');
 	background-repeat:repeat-y;
 }
 DIV.contextmenusep
 {
-	background-image:url('../images/menuseperator.gif');
+	background-image:url('..http://mediapro.gbm.local/images/menuseperator.gif');
 	background-repeat:repeat-y;
 	background-position:center;
 }
@@ -1599,7 +1599,7 @@ DIV.dxpc-contentWrapper {
 /* Minor update to place client logo watermark on full pages */
 HTML.mainpage {
     background-attachment:fixed;
-    background-image:url(/images/gbm_watermark.png);
+    background-image:url(http://mediapro.gbm.local/images/gbm_watermark.png);
     background-repeat:no-repeat;
     background-position: 2% 94%;
 }

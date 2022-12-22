@@ -1656,14 +1656,14 @@ background: #d5d5d5!important;
 
 .dxm-selected {
 background: #b61f34!important;
-text-color: #ffffff!important;
+color: #ffffff!important;
 }
 
 .dxm-hovered {
 background: #8d1926!important;
-text-color: #ffffff!important;
+color: #ffffff!important;
 }
 
 .dx-vam {
-text-color: #ffffff!important;
+color: #ffffff!important;
 }

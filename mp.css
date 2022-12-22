@@ -1650,5 +1650,10 @@ INPUT.occE::-ms-clear {
 
 /* Override */
 .dxm-main {
-background: #bdbdbd!important;
+background: ##76a382!important;
+}
+
+
+.dxm-selected {
+background: #b61f34!important;
 }

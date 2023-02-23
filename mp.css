@@ -1,175 +1,174 @@
 /* Header styles */
-	#header {
-		clear:both;
-		float:left;
-		width:100%;
-	}
-	#header {
-		border-bottom:1px solid #000;
-	}
-	#header p,
-	#header h1,
-	#header h2 {
-		padding:.4em 15px 0 15px;
-		margin:0;
-	}
-	#header ul {
-		clear:left;
-		float:left;
-		width:100%;
-		list-style:none;
-		margin:10px 0 0 0;
-		padding:0;
-	}
-	#header ul li {
-		display:inline;
-		list-style:none;
-		margin:0;
-		padding:0;
-	}
-	#header ul li a {
-		display:block;
-		float:left;
-		margin:0 0 0 1px;
-		padding:3px 10px;
-		text-align:center;
-		background:#eee;
-		color:#000;
-		text-decoration:none;
-		position:relative;
-		left:15px;
-		line-height:1.3em;
-	}
-	#header ul li a:hover {
-		background:#369;
-		color:#fff;
-	}
-	#header ul li a.active,
-	#header ul li a.active:hover {
-		color:#fff;
-		background:#000;
-		font-weight:bold;
-	}
-	#header ul li a span {
-		display:block;
-	}
+#header {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+#header {
+    border-bottom: 1px solid #000;
+}
+#header p,
+#header h1,
+#header h2 {
+    padding: 0.4em 15px 0;
+    margin: 0;
+}
+#header ul {
+    clear: left;
+    float: left;
+    width: 100%;
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+}
+#header ul li {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#header ul li a {
+    display: block;
+    float: left;
+    margin: 0 0 0 1px;
+    padding: 3px 10px;
+    text-align: center;
+    background: #eee;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    left: 15px;
+    line-height: 1.3em;
+}
+#header ul li a:hover {
+    background: #369;
+    color: #fff;
+}
+#header ul li a.active,
+#header ul li a.active:hover {
+    color: #fff;
+    background: #000;
+    font-weight: bold;
+}
+#header ul li a span {
+    display: block;
+}
 /* column container */
-	.colmask {
-		clear:both;
-		float:left;
-		width:98%;			
-        margin-left:1%;
-        margin-top:5px;
-	}
-	/* common column settings */
-	.colright,
-	.colmid,
-	.colleft {
-		float:left;
-		width:100%;
-		position:relative;
-        padding:10px;
-	}
-	.col1,
-	.col2,
-	.col3 {
-		float:left;
-		position:relative;
-		padding:0 0 1em 0;
-		
-	}
-	/* Full page settings */
-	.fullpage {
-        padding-bottom:30px;
-	}
-	.fullpage .col1 {
-		width:100%;
-        background-color:whitesmoke;
-        padding:0px;
-	}
-/* Footer styles */
-	#footer {
-		clear:both;
-		float:left;
-		width:100%;
-		border-top:1px solid #000;
-        position: fixed;
-        bottom: 0px;
-	}
-	#footer p {
-		padding:10px;
-		margin:0;
-	}
-	/* --> */
+.colmask {
+    clear: both;
+    float: left;
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 5px;
+}
+/* common column settings */
+.colright,
+.colmid,
+.colleft {
+    float: left;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+}
+.col1,
+.col2,
+.col3 {
+    float: left;
+    position: relative;
+    padding: 0 0 1em;
 
+}
+/* Full page settings */
+.fullpage {
+    padding-bottom: 30px;
+}
+.fullpage .col1 {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 0;
+}
+/* Footer styles */
+#footer {
+    clear: both;
+    float: left;
+    width: 100%;
+    border-top: 1px solid #000;
+    position: fixed;
+    bottom: 0;
+}
+#footer p {
+    padding: 10px;
+    margin: 0;
+}
+/* --> */
 
 
 .unselectable {
-            -moz-user-select:none;
-            -webkit-user-select:none;
-        }
-
-body{
-	margin: 0px;	
-	padding: 0px;
-	font-family: Verdana;
-	font-size: 11px;	 
-    width:100%;
+    -moz-user-select: none;
+    -webkit-user-select: none;
 }
 
-H1{
-	font-family: Verdana;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 11px;
+    width: 100%;
 }
 
-INPUT{
-	font-family: Verdana;
-	font-size: 11px;
+H1 {
+    font-family: Verdana;
+}
+
+INPUT {
+    font-family: Verdana;
+    font-size: 11px;
 }
 INPUT.EasyDateInputText::-ms-clear {
     display: none;
 }
-.ErrorBox{
-	z-index: 100;
-	vertical-align: middle;
-	width: 325px;
-	color: #ffffff;
-	position: absolute;
-	height: 95px;
-	background-color: #ff6633;
-	text-align: center;
-	/*Filter: alpha(Opacity=70);*/
-	border-right: #ff0000 3px solid;
-	border-top: #ff0000 3px solid;
-	border-left: #ff0000 3px solid;
-	border-bottom: #ff0000 3px solid;
+.ErrorBox {
+    z-index: 100;
+    vertical-align: middle;
+    width: 325px;
+    color: #ffffff;
+    position: absolute;
+    height: 95px;
+    background-color: #ff6633;
+    text-align: center;
+    /*Filter: alpha(Opacity=70);*/
+    border-right: #ff0000 3px solid;
+    border-top: #ff0000 3px solid;
+    border-left: #ff0000 3px solid;
+    border-bottom: #ff0000 3px solid;
 }
-.SiteTitle{
-	background-color: #a8a8a8;
-	height: 20px; 
-	padding-right: 10px;
-	color:White;
-	font-weight:bold;
-	text-align:center
+.SiteTitle {
+    background-color: #a8a8a8;
+    height: 20px;
+    padding-right: 10px;
+    color: White;
+    font-weight: bold;
+    text-align: center
 }
-.SiteHeader{
-	background-image: url(http://mediapro.gbm.local/images/Image1_1x1.gif);
-	background-repeat: no-repeat;
-	background-position: left top;
-	padding-right: 20px;
+.SiteHeader {
+    background-image: url('http://mediapro.gbm.local/images/Image1_1x1.gif');
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-right: 20px;
 }
-.ToolBar{	  
-	border-left:1px solid #808080;
-	border-right:1px solid #808080;
-	background-image: url(http://mediapro.gbm.local/images/toolbarBgH.gif)	
+.ToolBar {
+    border-left: 1px solid #808080;
+    border-right: 1px solid #808080;
+    background-image: url('http://mediapro.gbm.local/images/toolbarBgH.gif')
 }
-.ToolBarbutton{			
-	padding-top: 1px;
-	padding-bottom: 1px;		
-	text-align:center;
+.ToolBarbutton {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
 }
-.ToolBarBackgroundImage{
-	height:24px;
-	width:24px;	
+.ToolBarBackgroundImage {
+    height: 24px;
+    width: 24px;
 }
 .Disabled {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
@@ -178,812 +177,822 @@ INPUT.EasyDateInputText::-ms-clear {
     -khtml-opacity: 0.25;
     opacity: 0.25;
 }
-.ToolBarImage{
-	cursor:pointer;  
-	padding-top: 2px;		 
-	height:15px;
-	width:15px;
+.ToolBarImage {
+    cursor: pointer;
+    padding-top: 2px;
+    height: 15px;
+    width: 15px;
 }
-.ToolBarSeperator{
-	background-image:none;	
-	width: 2px;
+.ToolBarSeperator {
+    background-image: none;
+    width: 2px;
 }
-.ContentPlaceHolder{
-	padding-top: 10px;
-	padding-left: 10px;	
-}
-
-.Menu{
-	color: #ff0000;
-	border-right: #689AAC 0px solid;
-	border-top: #689AAC 0px solid;
-	border-left: #689AAC 0px solid;
-	border-bottom: #689AAC 0px solid;
-	cursor: pointer;
-	vertical-align: top; 
-	padding: 0px;	
+.ContentPlaceHolder {
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
-.MenuStyle{
-	cursor: pointer;
+.Menu {
+    color: #ff0000;
+    border-right: #689AAC 0 solid;
+    border-top: #689AAC 0 solid;
+    border-left: #689AAC 0 solid;
+    border-bottom: #689AAC 0 solid;
+    cursor: pointer;
+    vertical-align: top;
+    padding: 0;
 }
 
-.MenuSelected{
-	background-color:#82C6F6;
-	padding: 0px;
-	color: #333333;
-	cursor: pointer;	
+.MenuStyle {
+    cursor: pointer;
 }
 
-.MenuSubItem{
-	padding: 0px;
-	font-family: Verdana;
-	font-size: 11px;
-	color: #333333;
-	border-right: #333333 0px solid;
-	border-top: #333333 0px solid;
-	border-left: #333333 0px solid;
-	border-bottom: #333333 0px solid;
-	cursor: pointer;
-	width: 150px;
-	background-color:Black;	
+.MenuSelected {
+    background-color: #82C6F6;
+    padding: 0;
+    color: #333333;
+    cursor: pointer;
 }
 
-.Footer{
-	padding-top: 2px;
-	padding-left: 5px;
-	padding-right: 5px;
-	background-color: #82C6F6;
-	color: #ffffff;
-	font-weight: bold;
-	vertical-align: middle;
-	height: 20px;
-	border-top:1px solid #BDE1FA;
-	border-bottom:1px solid #5296C6;
-	background:url('http://mediapro.gbm.local/images/disclaimergradient.gif');
-	background-repeat:repeat-x;
+.MenuSubItem {
+    padding: 0;
+    font-family: Verdana;
+    font-size: 11px;
+    color: #333333;
+    border-right: #333333 0 solid;
+    border-top: #333333 0 solid;
+    border-left: #333333 0 solid;
+    border-bottom: #333333 0 solid;
+    cursor: pointer;
+    width: 150px;
+    background-color: Black;
 }
 
-.TDHeader{
-	background-image:url('http://mediapro.gbm.local/images/SiteHeader_Gradient_Filler.jpg');
-	background-repeat:repeat-x;
+.Footer {
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #82C6F6;
+    color: #ffffff;
+    font-weight: bold;
+    vertical-align: middle;
+    height: 20px;
+    border-top: 1px solid #BDE1FA;
+    border-bottom: 1px solid #5296C6;
+    background: url('http://mediapro.gbm.local/images/disclaimergradient.gif');
+    background-repeat: repeat-x;
 }
 
-.RateCard{
-	border: #000000 1px solid;
+.TDHeader {
+    background-image: url('http://mediapro.gbm.local/images/SiteHeader_Gradient_Filler.jpg');
+    background-repeat: repeat-x;
+}
+
+.RateCard {
+    border: #000000 1px solid;
     background-color: Silver;
     border-spacing: 0;
-    padding: 0,0,0,0;
-    table-layout:fixed;
+    padding: 0, 0, 0, 0;
+    table-layout: fixed;
 }
 
-.HTMLInputField{
-    background-color: #DCDCDC;	
+.HTMLInputField {
+    background-color: #DCDCDC;
 }
 
 TD.selected {
-	border:1px solid black;	
-	background:url('http://mediapro.gbm.local/images/selectiongradient.gif');
-	color:Black;
+    border: 1px solid black;
+    background: url('http://mediapro.gbm.local/images/selectiongradient.gif');
+    color: Black;
 }
 
-.FillContainer{
-	width:100%;
-    vertical-align:top;
+.FillContainer {
+    width: 100%;
+    vertical-align: top;
     font-family: Verdana;
-	font-size: 10px;
+    font-size: 10px;
 }
 
 /* Used in Planning Order Bookings */
-.tablepanel 
-{
-	margin-right:8px;
-	height:100%;
+.tablepanel {
+    margin-right: 8px;
+    height: 100%;
 }
-.Buttonpanel 
-{
-	border:1px solid #d0d0d0;
-	background-color:#ececec;
-	margin-right:8px;	
+.Buttonpanel {
+    border: 1px solid #d0d0d0;
+    background-color: #ececec;
+    margin-right: 8px;
 }
-.OrderHeader 
-{
-	/* background-color:#669CC2; */
-	background-color:#a8a8a8;
-	color:white;
-	border:1px solid black;
-	font-weight:normal;
-	padding:2px;
+.OrderHeader {
+    /* background-color:#669CC2; */
+    background-color: #a8a8a8;
+    color: white;
+    border: 1px solid black;
+    font-weight: normal;
+    padding: 2px;
 }
 
-.MLGrid{
-	display:none;
-	width: 800px;
+.MLGrid {
+    display: none;
+    width: 800px;
 }
 
-.MLGridRenderOnLoad{
-	/*display:none;*/
-	cursor:pointer;
-	width: 800px;
+.MLGridRenderOnLoad {
+    /*display:none;*/
+    cursor: pointer;
+    width: 800px;
 }
 
-.MLGridSmall{
-	display:none;
-	width: 400px;
+.MLGridSmall {
+    display: none;
+    width: 400px;
 }
 
-.MLGridPools{
-	width: 25%;
+.MLGridPools {
+    width: 25%;
 }
 
-.DivErrorLabel{
-	display: none;
-	width: 2%;	
+.DivErrorLabel {
+    display: none;
+    width: 2%;
 }
 
-.ButtonDiv{ 
-	width: 24px;
-	height: 24px;
+.ButtonDiv {
+    width: 24px;
+    height: 24px;
 }
 
-.ButtonIco{ 
-	width: 24px;
-	height: 24px;
+.ButtonIco {
+    width: 24px;
+    height: 24px;
 }
 
 /*end of general*/
 
 
-.MainTable{
-	width:800px;	
+.MainTable {
+    width: 800px;
 }
 
 
 /*Break Grid Stuff*/
-.bgm{
-	width: 60px;
-	height: 40px;
-	border-right: black 1px solid;
-	border-top: black 1px solid;
-	border-left: black 1px solid;
-	border-bottom: black 1px solid;
-	vertical-align: top;
-	font-size:7pt;
-	overflow:hidden;
+.bgm {
+    width: 60px;
+    height: 40px;
+    border-right: black 1px solid;
+    border-top: black 1px solid;
+    border-left: black 1px solid;
+    border-bottom: black 1px solid;
+    vertical-align: top;
+    font-size: 7pt;
+    overflow: hidden;
 }
 
-.bgm_sel{}
-.bgm_avail{}
+.bgm_sel {}
+.bgm_avail {}
 
-.bgm_t{
-	width:60px;
-	height:40px;
-	background:#f5f5f5;
-	cursor:pointer;
+.bgm_t {
+    width: 60px;
+    height: 40px;
+    background: #f5f5f5;
+    cursor: pointer;
 }
 
-.bgm_tabStyle{	
-	/*top: -5px; */
-	position: relative; 
-	/*display: none; */
-	width: 800px; 
-	height: 200px;
+.bgm_tabStyle {
+    /*top: -5px; */
+    position: relative;
+    /*display: none; */
+    width: 800px;
+    height: 200px;
 }
 
-.bgm_cellSel
-{
-	height: 50px;
-	width: 60px;	
-	background:url('http://mediapro.gbm.local/images/selectiongradient.gif');
-	background-repeat:repeat;   
-	background-color:#7FC3F2;
-	color:Black;
-	border: black 1px solid;	
-	vertical-align: top;
-	text-align:center;	 
-	font-size:7pt;
-	cursor:pointer;
+.bgm_cellSel {
+    height: 50px;
+    width: 60px;
+    background: url('http://mediapro.gbm.local/images/selectiongradient.gif');
+    background-repeat: repeat;
+    background-color: #7FC3F2;
+    color: Black;
+    border: black 1px solid;
+    vertical-align: top;
+    text-align: center;
+    font-size: 7pt;
+    cursor: pointer;
 }
 
-.bgm_copiedCell{
-	height: 40px;
-	width: 60px;
-	background:url('http://mediapro.gbm.local/images/selectiongradient.gif');
-	color:Black;
-    border:#000000 1px dashed;
+.bgm_copiedCell {
+    height: 40px;
+    width: 60px;
+    background: url('http://mediapro.gbm.local/images/selectiongradient.gif');
+    color: Black;
+    border: #000000 1px dashed;
 }
 
-.bgm_Selector{
-	background:#11ee4a;
+.bgm_Selector {
+    background: #11ee4a;
 }
 
-.ContainerHeader{
-	font-weight:bold;
+.ContainerHeader {
+    font-weight: bold;
 }
 
 /* popup / calendar buttons */
 .calendar_button {
-	vertical-align:top;
-	cursor:pointer;
+    vertical-align: top;
+    cursor: pointer;
 }
 
-.arrow_buttons{
-	cursor:pointer;
+.arrow_buttons {
+    cursor: pointer;
 }
 
-.tape_button{
-	cursor:pointer;
-	vertical-align:top;
+.tape_button {
+    cursor: pointer;
+    vertical-align: top;
 }
 
 .popupsearch_button {
-	vertical-align:top;
-	cursor:pointer;
-    padding:2px;
+    vertical-align: top;
+    cursor: pointer;
+    padding: 2px;
 }
 
 .TextBoxModifyMode:not([type=submit]):not([type=file]):not([type=button]) {
-	background-color:#FFFFFF;		
-} 
+    background-color: #FFFFFF;
+}
 .TextBoxDisplayMode:not([type=submit]):not([type=file]):not([type=button]) {
-	background-color:#FFFF66;	
-} 
+    background-color: #FFFF66;
+}
 .TextBoxDueDaysSaleshouse {
-	background-color:#19FF34;
+    background-color: #19FF34;
 }
 
 .TextBoxDueDaysAgencie {
-	background-color:#FF0C14;
+    background-color: #FF0C14;
 }
-.FieldsErrorMessages{
-	font-family: Verdana;
-	font-size: 10px;
-	color: #ff0000;
+.FieldsErrorMessages {
+    font-family: Verdana;
+    font-size: 10px;
+    color: #ff0000;
 }
 
 /* ASP Menu server control styles */
 
 /* This item is the "div" that pops up underneath the main menu item */
 .aspMenu {
-	border:1px solid black;
-	background-image:url('http://mediapro.gbm.local/images/ItemsBg.gif');
-	background-repeat:repeat-y;
-	z-index:2000;
+    border: 1px solid black;
+    background-image: url('http://mediapro.gbm.local/images/ItemsBg.gif');
+    background-repeat: repeat-y;
+    z-index: 2000;
 }
 /* This item is attached to every item, top-level and subitems */
-.aspMenuItem{		
-	border:1px solid #808080;
-	border-top:1px solid white;
-	font-family:Verdana;
-	font-size:8pt;
-	height:24px;
-	color:black;	
+.aspMenuItem {
+    border: 1px solid #808080;
+    border-top: 1px solid white;
+    font-family: Verdana;
+    font-size: 8pt;
+    height: 24px;
+    color: black;
 }
 
 /* This is the top-level menu despite the name */
-.aspMenuSubItem{	
-	background-color:#808080;
-	padding:0px;
-	padding-left:4px;
-	color:black;
+.aspMenuSubItem {
+    background-color: #808080;
+    padding: 0 0 0 4px;
+    color: black;
 }
 
-.aspMenuSelected{	
-	background-color: #62a6d6;
-	color:White;
+.aspMenuSelected {
+    background-color: #62a6d6;
+    color: White;
 }
 
-.aspMenuHover{
-	background-color: #62a6d6;
-	color:White;	    
+.aspMenuHover {
+    background-color: #62a6d6;
+    color: White;
 }
 
 /* This item is attached to every item, top-level and subitems */
-.aspLevelMenuItem{	
-	width:97px;
-	text-align:center;
-	border:1px solid #808080;
-	border-top:1px solid white;
-	border-left:1px solid white;
-	font-family:Verdana;
-	font-size:8pt;
-	font-weight:bold;
-	height:24px;
-	color:white;
+.aspLevelMenuItem {
+    width: 97px;
+    text-align: center;
+    border: 1px solid #808080;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    font-family: Verdana;
+    font-size: 8pt;
+    font-weight: bold;
+    height: 24px;
+    color: white;
 }
 
 /* This is the top-level menu despite the name */
-.aspLevelMenuSubItem{
-	background-image:url('http://mediapro.gbm.local/images/menuitemgradient.gif');
-	color:White;
+.aspLevelMenuSubItem {
+    background-image: url('http://mediapro.gbm.local/images/menuitemgradient.gif');
+    color: White;
 }
 
 /* Menu section */
-.MenuSection {text-align:left; background-color:white;visibility:hidden;display:none;position:absolute;left:0px;top:0px; }
-.MenuText {font-family:Verdana;font-size:13px;text-decoration:none;}
-.MenuMainItem {cursor:pointer; font-family:Verdana;font-size:13px;height:100%;width:100%; }
-.MenuMainItemSection {padding:2px 5px 2px 5px; }
-.MenuSubItemSection {padding:2px 5px 2px 5px; }
+.MenuSection {
+    text-align: left;
+    background-color: white;
+    visibility: hidden;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.MenuText {
+    font-family: Verdana;
+    font-size: 13px;
+    text-decoration: none;
+}
+.MenuMainItem {
+    cursor: pointer;
+    font-family: Verdana;
+    font-size: 13px;
+    height: 100%;
+    width: 100%;
+}
+.MenuMainItemSection {
+    padding: 2px 5px;
+}
+.MenuSubItemSection {
+    padding: 2px 5px;
+}
 
 /* Easy Grid user control styles */
-.grdTABLE{
-	border:0px; 
+.grdTABLE {
+    border: 0;
 }
 
-.grdTH{
-	color:White;
-	background-color:#639ABD;
-	font-family:Verdana;
-	font-size:10px;
-	font-weight:bold;
-	font-style:normal;
-	text-decoration:none;
-	border-bottom:1px ridge darkblue;
+.grdTH {
+    color: White;
+    background-color: #639ABD;
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    border-bottom: 1px ridge darkblue;
 }
 
-.grdTR{
-	color:Black;
-	font-family:Verdana;
-	font-size:10px;
-	font-weight:normal;
-	font-style:normal;
-	text-decoration:none;
-	white-space:nowrap;
-	background-color:#FFFFFF;
-	cursor:pointer;
-	border:0px; 
+.grdTR {
+    color: Black;
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    border: 0;
 }
 
-.grdHover{
-	color:Black;
-	font-family:Verdana;
-	font-size:10px;
-	font-weight:normal;
-	font-style:normal;
-	text-decoration:none;
-	white-space:nowrap;
-	background-color:#DDDDDD;
-	cursor:pointer;
-	border:0px; 
+.grdHover {
+    color: Black;
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #DDDDDD;
+    cursor: pointer;
+    border: 0;
 }
-.grdTD{
-	text-align:left;
-	vertical-align:top;
-	cursor:pointer;
-	border:0px; 
+.grdTD {
+    text-align: left;
+    vertical-align: top;
+    cursor: pointer;
+    border: 0;
 }
 
-.grdCur{
-	border-right:1px solid #d0d0d0;
-	border-collapse:collapse;
-	text-align:right;
-	border:0px; 
+.grdCur {
+    border-right: 1px solid #d0d0d0;
+    border-collapse: collapse;
+    text-align: right;
+    border: 0;
 }
 
 TABLE.grdHierarchy {
-	border:1px solid #404040;
-	background-color:#f4f4f4;
-	padding:10px;
-	width:100%;
+    border: 1px solid #404040;
+    background-color: #f4f4f4;
+    padding: 10px;
+    width: 100%;
 }
 TABLE.grdHierarchy TH {
-	text-align:left;
+    text-align: left;
 }
 .divGridBanner {
-	border:1px solid black;
-	background-color:#204080;
-	color:White;
-	font-weight:bold;	
-	margin-top:10px;
+    border: 1px solid black;
+    background-color: #204080;
+    color: White;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 /*---------------------------------------------------------------------------*/
 /*** Listview ***/
 /*---------------------------------------------------------------------------*/
-.ListView{
-	border-color:#7C7C94;
-	border-width:1px;
-	border-style:solid;
-	background-color:#FFFFFF;
-	margin:8px 0px 1px 0px;	
-	overflow:auto;
-	position:relative;
-    z-index:0;
+.ListView {
+    border-color: #7C7C94;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #FFFFFF;
+    margin: 8px 0 1px;
+    overflow: auto;
+    position: relative;
+    z-index: 0;
 }
-.ListView TABLE{	 
-	width:100%;		
-	position:absolute;
+.ListView TABLE {
+    width: 100%;
+    position: absolute;
 }
-.ListView TH{	
-	color:White;	
-	background-color:#a8a8a8;
-	font-family:Verdana;
-	font-size:10px;
-	font-weight:bold;
-	font-style:normal;
-	text-decoration:none;	
-	white-space:nowrap; 	
-	text-align:left;
-	padding-right:5px;
-	padding-left:3px;
-	border-right:1px solid #FFFFFF; 
-	height:15px;	
+.ListView TH {
+    color: White;
+    background-color: #a8a8a8;
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    white-space: nowrap;
+    text-align: left;
+    padding-right: 5px;
+    padding-left: 3px;
+    border-right: 1px solid #FFFFFF;
+    height: 15px;
 }
 
-.ListView tr.RowLight{
-	color:#000000;
-	background-color:#FFFFFF;	
-	text-decoration:none;	
+.ListView tr.RowLight {
+    color: #000000;
+    background-color: #FFFFFF;
+    text-decoration: none;
 }
-.ListView tr.RowDark{
-	color:#000000;
-	background-color:#ebebeb;	
-	text-decoration:none;		
+.ListView tr.RowDark {
+    color: #000000;
+    background-color: #ebebeb;
+    text-decoration: none;
 }
-.ListView tr.RowOver{
-	color:#000000;
-	background-color:#F1EFE2;	
-	text-decoration:none;			
+.ListView tr.RowOver {
+    color: #000000;
+    background-color: #F1EFE2;
+    text-decoration: none;
 }
-.ListView tr.RowSelect{
-	color:#FFFFFF;
-	background-color:#8d1926;	
-	text-decoration:none;		
+.ListView tr.RowSelect {
+    color: #FFFFFF;
+    background-color: #8d1926;
+    text-decoration: none;
 }
-.ListView td{
-	padding-left:3px;
-	font-family:Verdana;
-	font-size:10px;
-	white-space:nowrap;
-	padding-right:5px;
-	height:20px;	
+.ListView td {
+    padding-left: 3px;
+    font-family: Verdana;
+    font-size: 10px;
+    white-space: nowrap;
+    padding-right: 5px;
+    height: 20px;
 }
-.ListView td.CellPaging{
-	font-family:Verdana;
-	font-size:12px;		
-	padding-left:3px;
-	padding-top:3px;	
+.ListView td.CellPaging {
+    font-family: Verdana;
+    font-size: 12px;
+    padding-left: 3px;
+    padding-top: 3px;
 }
 .ListView a {
-	text-decoration: none;
+    text-decoration: none;
 }
-.ListView image{
-	border:none;
+.ListView image {
+    border: none;
 }
 
 /*---------------------------------------------------------------------------*/
 /*** Loader ***/
 /*---------------------------------------------------------------------------*/
-.Loader{
-	top:0px;
-	left:0px;
-	z-index:100;
-	width:100%;
-	height:100%;
-	position:absolute;
-	background-color:white;	
-	filter:alpha(Opacity=50);	
+.Loader {
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: white;
+    filter:alpha(Opacity=50);
 }
-.Loader_Image{
-	z-index:101;
-	left:42%;
-	top:45%;
-	position:absolute;
-	border:1px solid black;	
+.Loader_Image {
+    z-index: 101;
+    left: 42%;
+    top: 45%;
+    position: absolute;
+    border: 1px solid black;
 }
 
 /*---------------------------------------------------------------------------*/
 /*** Easy Section ***/
 /*---------------------------------------------------------------------------*/
-.SectionHeader{	
-	font-weight:bold;
-	color:White;
-	text-align:right;
-	background-color:#a8a8a8;
-	height:20px;
-	width:440px;
-	border:solid 1px black;
-	cursor:pointer;
+.SectionHeader {
+    font-weight: bold;
+    color: White;
+    text-align: right;
+    background-color: #a8a8a8;
+    height: 20px;
+    width: 440px;
+    border: solid 1px black;
+    cursor: pointer;
 }
-.SectionHeaderText{
-	float:left;
-	padding:2px;
-	cursor:pointer;
+.SectionHeaderText {
+    float: left;
+    padding: 2px;
+    cursor: pointer;
 }
-.SectionHeaderImage{
-	padding:2px;
-	cursor:pointer;
+.SectionHeaderImage {
+    padding: 2px;
+    cursor: pointer;
 }
-.SectionBody{
-	border-left:solid 1px black;
-	border-right:solid 1px black;
-	border-bottom:solid 1px black;
-	padding:10px;	
-	width:420px;
+.SectionBody {
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
+    padding: 10px;
+    width: 420px;
 }
-.SectionFooter{
-	margin-bottom:10px;
+.SectionFooter {
+    margin-bottom: 10px;
 }
 
-.DivHeader{
-	cursor:move;
-	background:url('http://mediapro.gbm.local/images/disclaimergradient.gif');
-	background-repeat:repeat-x;
-	height:18px;		
-	background-color: #82C6F6;
-	color: #ffffff;
-	font-weight: bold;	
-	border-top:1px solid #BDE1FA;
-	border-bottom:1px solid #5296C6;
-	padding-left:10px;
-	padding-top:4px;
-	padding-bottom:2px;	 
-	padding-right:3px;
-	text-align:right;  	 
+.DivHeader {
+    cursor: move;
+    background: url('http://mediapro.gbm.local/images/disclaimergradient.gif');
+    background-repeat: repeat-x;
+    height: 18px;
+    background-color: #82C6F6;
+    color: #ffffff;
+    font-weight: bold;
+    border-top: 1px solid #BDE1FA;
+    border-bottom: 1px solid #5296C6;
+    padding: 4px 3px 2px 10px;
+    text-align: right;
 }
 
 /*---------------------------------------------------------------------------*/
 /*** Easy DateInput ***/
 /*---------------------------------------------------------------------------*/
-.EasyDateInputText{
-	font: normal 12px Arial, Verdana, Sans-serif;
-	margin-right:3px;	  
+.EasyDateInputText {
+    font: normal 12px Arial, Verdana, Sans-serif;
+    margin-right: 3px;
 }
-.EasyCalendar { 
-	z-index:1; 
-	position:absolute;
-	visibility:hidden;
-	background-color: #fbfbfb;
-	border: solid 1px #ebebeb;
-	border-right: 3px solid #d1d1d1;
-	border-bottom: 3px solid #d1d1d1;
-	cursor: default;
-	font: normal 12px Arial, Verdana, Sans-serif;
-	color: #686868;
-	border-style:Solid;
-	color:Black;
-	border-color:#ececec;
-	background-image: url(Img/calendarBg.gif);
-	background-repeat: repeat-x;	
-}
-.EasyCalendarHeader { /* style for the header row */
+.EasyCalendar {
+    z-index: 1;
+    position: absolute;
+    visibility: hidden;
+    background-color: #fbfbfb;
+    border: solid 1px #ebebeb;
+    border-right: 3px solid #d1d1d1;
+    border-bottom: 3px solid #d1d1d1;
+    cursor: default;
+    font: normal 12px Arial, Verdana, Sans-serif;
     color: #686868;
-	font-family: Arial, Verdana, Sans-Serif;
-	background-image: url(Img/titleBg.gif);
-	background-repeat: repeat-x;
-	font-size: 12px;
-	font-weight: normal;
-	height: 20px;
-	cursor: default;
-	text-align: center;
-	width: 100%;
+    border-style: Solid;
+    color: Black;
+    border-color: #ececec;
+    background-image: url('Img/calendarBg.gif');
+    background-repeat: repeat-x;
 }
-.EasyCalendarHeaderButton { /* style for buttons in the header row */
-     cursor: pointer;
+.EasyCalendarHeader {
+    /* style for the header row */
+    color: #686868;
+    font-family: Arial, Verdana, Sans-Serif;
+    background-image: url('Img/titleBg.gif');
+    background-repeat: repeat-x;
+    font-size: 12px;
+    font-weight: normal;
+    height: 20px;
+    cursor: default;
+    text-align: center;
+    width: 100%;
 }
-.EasyCalendarButton { /* style for the calendar area */
-     cursor: pointer;
+.EasyCalendarHeaderButton {
+    /* style for buttons in the header row */
+    cursor: pointer;
 }
-.EasyCalendarDayButton { /* highlighted date */
-     background-color: #c0c0ff;
-     cursor: pointer;
+.EasyCalendarButton {
+    /* style for the calendar area */
+    cursor: pointer;
+}
+.EasyCalendarDayButton {
+    /* highlighted date */
+    background-color: #c0c0ff;
+    cursor: pointer;
 }
 /*---------------------------------------------------------------------------*/
 /*** Floating Toolbar ***/
 /*---------------------------------------------------------------------------*/
-.FloatingToolbarHeader{
-	font-size:1pt; 
-	cursor: move;
-	text-align:left;
-	height:15px;
-	width:100%;
-	display:block;
-	background-color:#639ABD;
-	border-color:#7C7C94;
-	border-width:1px;
-	border-style:solid;
-}		
-.FloatingToolbarHeaderButton{
-	font-size:1pt;
-	height:15px;
-	width:15px;
-	cursor:pointer;
-	padding:2px 2px 2px 2px;
+.FloatingToolbarHeader {
+    font-size: 1pt;
+    cursor: move;
+    text-align: left;
+    height: 15px;
+    width: 100%;
+    display: block;
+    background-color: #639ABD;
+    border-color: #7C7C94;
+    border-width: 1px;
+    border-style: solid;
+}
+.FloatingToolbarHeaderButton {
+    font-size: 1pt;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    padding: 2px;
 }
 /*---------------------------------------------------------------------------*/
 /*** Easy TabString ***/
 /*---------------------------------------------------------------------------*/
-.EasyTabStrip{		
+.EasyTabStrip {}
+.EasyTab {
+    font: 8pt tahoma, sans-serif;
+    background-repeat: repeat-x;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: left;
+    cursor: pointer;
+    white-space: nowrap;
+    text-align: center;
 }
-.EasyTab{	
-	font:8pt tahoma, sans-serif;
-	background-repeat:repeat-x;
-	padding-left:5px; 
-	padding-right:5px;
-	float:left;
-	cursor:pointer; 	 
-	white-space:nowrap; 
-	text-align:center;  	         
-}
-.EasyTab.On{	
-	background-image:url(http://mediapro.gbm.local/images/tabstrip/tabMiddleOn.gif);	
-	background-repeat:repeat-x;
-	padding-top:4px; 
-	height:22px; 
+.EasyTab.On {
+    background-image: url('http://mediapro.gbm.local/images/tabstrip/tabMiddleOn.gif');
+    background-repeat: repeat-x;
+    padding-top: 4px;
+    height: 22px;
 }
 .EasyTab.Off {
-    background-image:url(http://mediapro.gbm.local/images/tabstrip/tabMiddleOff.gif);
-    margin-top:2px;
-    padding-top:3px;
-    height:19px;
+    background-image: url('http://mediapro.gbm.local/images/tabstrip/tabMiddleOff.gif');
+    margin-top: 2px;
+    padding-top: 3px;
+    height: 19px;
 }
 .EasyTabSide {
-    background-repeat:repeat-x;
-    width:3px;
-	float:left;
+    background-repeat: repeat-x;
+    width: 3px;
+    float: left;
 }
 .EasyTabSide.Left.Off {
-    margin-top:2px;	
-    background-image:url(http://mediapro.gbm.local/images/tabstrip/tabLeftOff.gif);
-    height:19px;	
+    margin-top: 2px;
+    background-image: url('http://mediapro.gbm.local/images/tabstrip/tabLeftOff.gif');
+    height: 19px;
 }
 .EasyTabSide.Left.On {
-    background-image:url(http://mediapro.gbm.local/images/tabstrip/tabLeftOn.gif);	
-    height:22px;
+    background-image: url('http://mediapro.gbm.local/images/tabstrip/tabLeftOn.gif');
+    height: 22px;
 }
 .EasyTabSide.Right.Off {
-    margin-top:2px;	
-    background-image:url(http://mediapro.gbm.local/images/tabstrip/tabRightOff.gif);
-    height:19px;	
+    margin-top: 2px;
+    background-image: url('http://mediapro.gbm.local/images/tabstrip/tabRightOff.gif');
+    height: 19px;
 }
 .EasyTabSide.Right.On {
-    background-image:url(http://mediapro.gbm.local/images/tabstrip/tabRightOn.gif);	
-    height:22px;
+    background-image: url('http://mediapro.gbm.local/images/tabstrip/tabRightOn.gif');
+    height: 22px;
 }
 
 /*---------------------------------------------------------------------------*/
 /*** Treeview ***/
 /*---------------------------------------------------------------------------*/
-.TreeView{
-	border-collapse:collapse; 
-	padding-right:10px; 
+.TreeView {
+    border-collapse: collapse;
+    padding-right: 10px;
 }
-.TreeViewItem{
-	border-collapse:collapse;  
+.TreeViewItem {
+    border-collapse: collapse;
 }
 /*---------------------------------------------------------------------------*/
 /*** Tooltip ***/
 /*---------------------------------------------------------------------------*/
 .tooltip {
-	position:absolute;
-	visibility:hidden;
-	top:0px;
-	left:0px;
-	background-color:#FFFFD8;
-	border:1px solid black;
-	color:Black;
-	padding:2px;	
-	z-index:3000;
-	font-size:7pt;
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    background-color: #FFFFD8;
+    border: 1px solid black;
+    color: Black;
+    padding: 2px;
+    z-index: 3000;
+    font-size: 7pt;
 }
 .ListviewContextMenu {
     border: 1px solid #000000;
-    position:absolute;
-    background-color: #FFFFFF;    
-    text-decoration:none;
-    padding:2px;     
-    padding-bottom:30px;         
- }
- .ListviewContextMenuItems{	
-	border-collapse:collapse;
-	list-style-type: none;
-	margin: 0px;
-    padding: 0px;    
+    position: absolute;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    padding: 2px 2px 30px;
+}
+.ListviewContextMenuItems {
+    border-collapse: collapse;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     border: none;
- }
+}
 .ListviewContextMenuItem {
-	background-color:#FFFFFF;
-    padding: 2px 10px 3px 10px;
-    cursor:pointer;            
+    background-color: #FFFFFF;
+    padding: 2px 10px 3px;
+    cursor: pointer;
 }
 .ListviewContextMenuItemHover {
-	background-color:#F0F0FF;	
-    padding: 2px 10px 3px 10px;     
-    cursor:pointer;  
-}  
+    background-color: #F0F0FF;
+    padding: 2px 10px 3px;
+    cursor: pointer;
+}
 /*---------------------------------------------------------------------------*/
 /*** TableSort User Control ***/
 /*---------------------------------------------------------------------------*/
 ul.sortable li {
-	position: relative;
+    position: relative;
 }
 
 ul.boxy {
-	list-style-type: none;
-	padding: 0px;
-	margin: 0px;
-	width: 10em;
-	font-size: 10px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 10em;
+    font-size: 10px;
 }
 ul.boxy li {
-	cursor:move;
-	padding: 2px 2px;
-	border: 1px solid #ddd;	
+    cursor: move;
+    padding: 2px;
+    border: 1px solid #ddd;
 }
 .clickable a {
-	display: block;
-	text-decoration: none;
-	cursor: pointer;
-	cursor: hand;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    cursor: hand;
 }
 .clickable li:hover {
-	background-color: #f6f6f6;
+    background-color: #f6f6f6;
 }
 
 /*---------------------------------------------------------------------------*/
 /***  MLContextMenu styles ***/
 /*---------------------------------------------------------------------------*/
-DIV.contextmenu 
-{
-	z-index:6000;
-	position:absolute;
-	top:10px;
-	left:500px;
-	width:200px;
-	border:1px solid black;
-	color:Black;
-	cursor:pointer;
-	background-color:#ededed;
-	visibility:hidden;
-	background-image:url('..http://mediapro.gbm.local/images/contextmenugradient.gif');
-	background-repeat:repeat-y;
-	padding-bottom:10px
+DIV.contextmenu {
+    z-index: 6000;
+    position: absolute;
+    top: 10px;
+    left: 500px;
+    width: 200px;
+    border: 1px solid black;
+    color: Black;
+    cursor: pointer;
+    background-color: #ededed;
+    visibility: hidden;
+    background-image: url('..http://mediapro.gbm.local/images/contextmenugradient.gif');
+    background-repeat: repeat-y;
+    padding-bottom: 10px
 }
 
-DIV.readonly 
-{
-	background-color:#aaaaaa;
-	background-image:url('');
-	color:#666666;
-	cursor:text;
+DIV.readonly {
+    background-color: #aaaaaa;
+    background-image: url('');
+    color: #666666;
+    cursor: text;
 }
-DIV.contextmenuheader
-{
-	background-color:#60a0ff;
-	color:White;
-	padding:4px;
-	border-bottom:1px solid black;
-	font-weight:bold;
-	border-top:1px solid white
+DIV.contextmenuheader {
+    background-color: #60a0ff;
+    color: White;
+    padding: 4px;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    border-top: 1px solid white
 }
-DIV.contextmenuitem 
-{
-	text-indent:26px;
-	vertical-align:middle;
-	padding:4px 0px 4px 0px;
-	width:100%;
-    cursor:pointer;
+DIV.contextmenuitem {
+    text-indent: 26px;
+    vertical-align: middle;
+    padding: 4px 0;
+    width: 100%;
+    cursor: pointer;
 }
 DIV.contextmenuitem:hover {
-    color:White;
-    background-color:#40a0dd;
+    color: White;
+    background-color: #40a0dd;
 }
-DIV.contextmenuitemselected
-{
-	text-indent:26px;
-	vertical-align:middle;
-	padding:4px 0px 4px 0px;
-	width:100%;
-	
-	background-color:white;
-	background-image:url('..http://mediapro.gbm.local/images/contextmenugradientselected.gif');
-	background-repeat:repeat-y;
+DIV.contextmenuitemselected {
+    text-indent: 26px;
+    vertical-align: middle;
+    padding: 4px 0;
+    width: 100%;
+
+    background-color: white;
+    background-image: url('..http://mediapro.gbm.local/images/contextmenugradientselected.gif');
+    background-repeat: repeat-y;
 }
-DIV.contextmenusep
-{
-	background-image:url('..http://mediapro.gbm.local/images/menuseperator.gif');
-	background-repeat:repeat-y;
-	background-position:center;
+DIV.contextmenusep {
+    background-image: url('..http://mediapro.gbm.local/images/menuseperator.gif');
+    background-repeat: repeat-y;
+    background-position: center;
 }
 
 /*---------------------------------------------------------------------------*/
@@ -991,501 +1000,485 @@ DIV.contextmenusep
 /*---------------------------------------------------------------------------*/
 
 .wizard_table {
-    width:700px;
-    }
-    
+    width: 700px;
+}
+
 .wizard_title {
-    background-color:blue;
-    color:white;
-    font-weight:bold;
-    height:16px;
-    }
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    height: 16px;
+}
 
 .wizard_header {
-    background-color:white;
-    color:black;
-    font-weight:bold;
-    vertical-align:top;
-    border-left:4px solid #0836DB;
-    border-right:4px solid #0836DB;
-    padding:8px
-    }
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    vertical-align: top;
+    border-left: 4px solid #0836DB;
+    border-right: 4px solid #0836DB;
+    padding: 8px
+}
 
 .wizard_seperator {
-    background-color:white;
-    color:black;
-    font-weight:bold;
-    height:8px;
-    border-left:4px solid #0836DB;
-    border-right:4px solid #0836DB;
-    }
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    height: 8px;
+    border-left: 4px solid #0836DB;
+    border-right: 4px solid #0836DB;
+}
 
 .wizard_content {
-    background-color:white;
-    color:black;
-    font-weight:normal;
-    height:300px;
-    vertical-align:top;
-    border-left:4px solid #0836DB;
-    border-right:4px solid #0836DB;
-    padding:4px
-    }
-    
-    .wizard_contentRadio {
-    background-color:white;
-    color:black;
-    font-weight:normal;
-    height:600px;
-    vertical-align:top;
-    border-left:4px solid #0836DB;
-    border-right:4px solid #0836DB;
-    padding:4px
-    }
-    
-    
+    background-color: white;
+    color: black;
+    font-weight: normal;
+    height: 300px;
+    vertical-align: top;
+    border-left: 4px solid #0836DB;
+    border-right: 4px solid #0836DB;
+    padding: 4px
+}
+
+.wizard_contentRadio {
+    background-color: white;
+    color: black;
+    font-weight: normal;
+    height: 600px;
+    vertical-align: top;
+    border-left: 4px solid #0836DB;
+    border-right: 4px solid #0836DB;
+    padding: 4px
+}
+
+
 .wizard_footer {
-    background-color:white;
-    color:black;
-    font-weight:bold;
-    height:28px;
-    border-left:4px solid #0836DB;
-    border-right:4px solid #0836DB;
-    border-bottom:4px solid #0836DB;
-    vertical-align:top;
-    padding:4px
-    }
-    
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    height: 28px;
+    border-left: 4px solid #0836DB;
+    border-right: 4px solid #0836DB;
+    border-bottom: 4px solid #0836DB;
+    vertical-align: top;
+    padding: 4px
+}
+
 .wizardstep_visible {
-    display:block;
-    }
-    
+    display: block;
+}
+
 .wizardstep_hidden {
-    display:none;
-    }
+    display: none;
+}
 .wizard_bookingunitgrid {
-    font-size:8pt;
+    font-size: 8pt;
 }
 .wizard_bookingunitheader {
-    background-color:#639ABD;
-    color:white;
-    font-size:8pt;
-    font-weight:bold;
-    text-align:left
+    background-color: #639ABD;
+    color: white;
+    font-size: 8pt;
+    font-weight: bold;
+    text-align: left
 }
 .wizard_bookingunitdelbutton {
-    cursor:pointer;
+    cursor: pointer;
 }
 
 /*---------------------------------------------------------------------------*/
 /*** Session totals ***/
 /*---------------------------------------------------------------------------*/
 .tabSessionTotals {
-    font-family:verdana;
-    font-size:10px;
-    border:1px solid #808080;
-    background-color:white;
+    font-family: verdana;
+    font-size: 10px;
+    border: 1px solid #808080;
+    background-color: white;
 }
 .tabSessionTotals TH {
-    text-decoration:underline;
-	color:White;
-	background-color:#639ABD;
-	font-family:Verdana;
-	font-size:10px;
-	font-weight:bold;
-	white-space:nowrap;
-    padding-left:4px;
-    padding-right:4px;
+    text-decoration: underline;
+    color: White;
+    background-color: #639ABD;
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: bold;
+    white-space: nowrap;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 .tabSessionTotals TD {
-    background-color:white;
-    border-right:1px dashed #c0c0c0;
-    padding-left:4px;
-    padding-right:4px;
+    background-color: white;
+    border-right: 1px dashed #c0c0c0;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 .tabSessionTotals .rightalign {
-    text-align:right;
-    padding-left:10px;
-    padding-right:2px;
+    text-align: right;
+    padding-left: 10px;
+    padding-right: 2px;
 }
-.tdAmountButton 
- {
-	border:1px solid #808080;
-	background-color:#f0f0f0;
-	color:Black;
-	cursor:pointer;
-	width:60px;
-	padding:2px;
-	vertical-align:middle;
-	text-align:center;
- }
-
-.SalLegend 
-{
-	/* background-image:url('gfx/icon_islocked.gif'); */
-	width:10px;
-	display:inline;
-	background-color:#19FF34;
-	color:#19FF34;
-	border:1px solid #19FF34;
-	margin-right:1px;
-	text-align:center;
-	padding-right:2px;
-	padding-left:1px;
+.tdAmountButton {
+    border: 1px solid #808080;
+    background-color: #f0f0f0;
+    color: Black;
+    cursor: pointer;
+    width: 60px;
+    padding: 2px;
+    vertical-align: middle;
+    text-align: center;
 }
 
-.AgLegend 
-{
-	/* background-image:url('gfx/icon_islocked.gif'); */
-	width:10px;
-	display:inline;
-	background-color:#FF0C14;
-	color:#FF0C14;
-	border:1px solid #FF0C14;
-	margin-right:1px;
-	text-align:center;
-	padding-right:2px;
-	padding-left:1px;
+.SalLegend {
+    /* background-image:url('gfx/icon_islocked.gif'); */
+    width: 10px;
+    display: inline;
+    background-color: #19FF34;
+    color: #19FF34;
+    border: 1px solid #19FF34;
+    margin-right: 1px;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 1px;
 }
 
-.gi_slock 
-{
-	/* background-image:url('gfx/icon_islocked.gif'); */
-	width:10px;
-	display:inline;
-	background-color:#ffff33;
-	color:#ffff33;
-	border:1px solid #ffff33;
-	margin-right:1px;
-	text-align:center;
-	padding-right:2px;
-	padding-left:1px;
-}
-.gi_tlock 
-{
-	/* background-image:url('gfx/icon_islocked.gif'); */
-	width:10px;
-	display:inline;
-	background-color:#FFFF99;
-	color:#FFFF99;
-	border:1px solid #FFFF99;
-	margin-right:1px;
-	text-align:center;
-	padding-right:2px;
-	padding-left:1px;
+.AgLegend {
+    /* background-image:url('gfx/icon_islocked.gif'); */
+    width: 10px;
+    display: inline;
+    background-color: #FF0C14;
+    color: #FF0C14;
+    border: 1px solid #FF0C14;
+    margin-right: 1px;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 1px;
 }
 
-.gi_stationtip{
-	/* background-image:url('gfx/icon_islocked.gif'); */
-	width:10px;
-	display:inline;
-	background-color:#57007F;
-	color:#FFFFFF;
-	border:1px solid #57007F;
-	margin-right:1px;
-	text-align:center;
-	padding-right:2px;
-	padding-left:1px;
+.gi_slock {
+    /* background-image:url('gfx/icon_islocked.gif'); */
+    width: 10px;
+    display: inline;
+    background-color: #ffff33;
+    color: #ffff33;
+    border: 1px solid #ffff33;
+    margin-right: 1px;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 1px;
+}
+.gi_tlock {
+    /* background-image:url('gfx/icon_islocked.gif'); */
+    width: 10px;
+    display: inline;
+    background-color: #FFFF99;
+    color: #FFFF99;
+    border: 1px solid #FFFF99;
+    margin-right: 1px;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 1px;
+}
+
+.gi_stationtip {
+    /* background-image:url('gfx/icon_islocked.gif'); */
+    width: 10px;
+    display: inline;
+    background-color: #57007F;
+    color: #FFFFFF;
+    border: 1px solid #57007F;
+    margin-right: 1px;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 1px;
 }
 .gi_specialclash {
-	/* background-image:url('gfx/icon_islocked.gif'); */
-	width: 10px;
-	display: inline;
-	background-color: #00BEFF;
-	color: #FFFFFF;
-	border: 1px solid #00BEFF;
-	margin-right: 1px;
-	text-align: center;
-	padding-right: 2px;
-	padding-left: 1px;
+    /* background-image:url('gfx/icon_islocked.gif'); */
+    width: 10px;
+    display: inline;
+    background-color: #00BEFF;
+    color: #FFFFFF;
+    border: 1px solid #00BEFF;
+    margin-right: 1px;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 1px;
 }
-.gi_prefered 
-{
-	/* background-image:url('gfx/icon_islocked.gif'); */
-	width:30px;
-	display:inline;
-	background-color:#FFFF33;
-	color:#FFFF33;
-	border:1px solid #FFFF33;
-	margin-right:1px;
-	text-align:center;
-	padding-right:2px;
-	padding-left:1px;
-	
+.gi_prefered {
+    /* background-image:url('gfx/icon_islocked.gif'); */
+    width: 30px;
+    display: inline;
+    background-color: #FFFF33;
+    color: #FFFF33;
+    border: 1px solid #FFFF33;
+    margin-right: 1px;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 1px;
+
 }
-.gi_Paid
-{
-	/* background-image:url('gfx/icon_islocked.gif'); */
-	width:30px;
-	display:inline;
-	background-color:lightgreen;
-	color:#lightgreen;
-	border:1px solid lightgreen;
-	margin-right:1px;
-	text-align:center;
-	padding-right:2px;
-	padding-left:1px;
-	
+.gi_Paid {
+    /* background-image:url('gfx/icon_islocked.gif'); */
+    width: 30px;
+    display: inline;
+    background-color: lightgreen;
+    color: #lightgreen;
+    border: 1px solid lightgreen;
+    margin-right: 1px;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 1px;
+
 }
 .gi_ProductClash {
-	/* background-image:url('gfx/icon_islocked.gif'); */
-	width: 30px;
-	display: inline;
-	background-color: yellow;
-	color: #lightgreen;
-	border: 1px solid lightgreen;
-	margin-right: 1px;
-	text-align: center;
-	padding-right: 2px;
-	padding-left: 1px;
+    /* background-image:url('gfx/icon_islocked.gif'); */
+    width: 30px;
+    display: inline;
+    background-color: yellow;
+    color: #lightgreen;
+    border: 1px solid lightgreen;
+    margin-right: 1px;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 1px;
 }
 .gi_Else {
-	/* background-image:url('gfx/icon_islocked.gif'); */
-	width: 30px;
-	display: inline;
-	background-color: blue;
-	color: #lightgreen;
-	border: 1px solid lightgreen;
-	margin-right: 1px;
-	text-align: center;
-	padding-right: 2px;
-	padding-left: 1px;
+    /* background-image:url('gfx/icon_islocked.gif'); */
+    width: 30px;
+    display: inline;
+    background-color: blue;
+    color: #lightgreen;
+    border: 1px solid lightgreen;
+    margin-right: 1px;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 1px;
 }
 .gi_Sep {
-	/* background-image:url('gfx/icon_islocked.gif'); */
-	width: 30px;
-	display: inline;
-	background-color: orange;
-	color: #lightgreen;
-	border: 1px solid lightgreen;
-	margin-right: 1px;
-	text-align: center;
-	padding-right: 2px;
-	padding-left: 1px;
+    /* background-image:url('gfx/icon_islocked.gif'); */
+    width: 30px;
+    display: inline;
+    background-color: orange;
+    color: #lightgreen;
+    border: 1px solid lightgreen;
+    margin-right: 1px;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 1px;
 }
 .gi_Multispot {
-	/* background-image:url('gfx/icon_islocked.gif'); */
-	width: 30px;
-	display: inline;
-	background-color: purple;
-	color: #lightgreen;
-	border: 1px solid lightgreen;
-	margin-right: 1px;
-	text-align: center;
-	padding-right: 2px;
-	padding-left: 1px;
+    /* background-image:url('gfx/icon_islocked.gif'); */
+    width: 30px;
+    display: inline;
+    background-color: purple;
+    color: #lightgreen;
+    border: 1px solid lightgreen;
+    margin-right: 1px;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 1px;
 }
 .gi_multRem {
-	/* background-image:url('gfx/icon_islocked.gif'); */
-	width: 30px;
-	display: inline;
-	background-color: red;
-	color: #lightgreen;
-	border: 1px solid lightgreen;
-	margin-right: 1px;
-	text-align: center;
-	padding-right: 2px;
-	padding-left: 1px;
+    /* background-image:url('gfx/icon_islocked.gif'); */
+    width: 30px;
+    display: inline;
+    background-color: red;
+    color: #lightgreen;
+    border: 1px solid lightgreen;
+    margin-right: 1px;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 1px;
 }
 .gi_Pref {
-	/* background-image:url('gfx/icon_islocked.gif'); */
-	width: 30px;
-	display: inline;
-	background-color: green;
-	color: #lightgreen;
-	border: 1px solid lightgreen;
-	margin-right: 1px;
-	text-align: center;
-	padding-right: 2px;
-	padding-left: 1px;
+    /* background-image:url('gfx/icon_islocked.gif'); */
+    width: 30px;
+    display: inline;
+    background-color: green;
+    color: #lightgreen;
+    border: 1px solid lightgreen;
+    margin-right: 1px;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 1px;
 }
-.gi_NonPaid 
-{
-	/* background-image:url('gfx/icon_islocked.gif'); */
-	width:30px;
-	display:inline;
-	background-color:#FFCC66;
-	color:#FFCC66;
-	border:1px solid #FFCC66;
-	margin-right:1px;
-	text-align:center;
-	padding-right:2px;
-	padding-left:1px;
-	
+.gi_NonPaid {
+    /* background-image:url('gfx/icon_islocked.gif'); */
+    width: 30px;
+    display: inline;
+    background-color: #FFCC66;
+    color: #FFCC66;
+    border: 1px solid #FFCC66;
+    margin-right: 1px;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 1px;
+
 }
 .gi_Copy {
-	/* background-image:url('gfx/icon_islocked.gif'); */
-	width: 30px;
-	display: inline;
-	background-color: #00FF00;
-	color: #00C800;
-	border: 1px solid #00FF00;
-	margin-right: 1px;
-	text-align: center;
-	padding-right: 2px;
-	padding-left: 1px;
+    /* background-image:url('gfx/icon_islocked.gif'); */
+    width: 30px;
+    display: inline;
+    background-color: #00FF00;
+    color: #00C800;
+    border: 1px solid #00FF00;
+    margin-right: 1px;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 1px;
 }
-.gi_Overunderbooked 
-{
-	
-	width:30px;
-	display:inline;
-	background-color:#FF0000;
-	color:#FF0000;
-	border:1px solid #FF0000;
-	margin-right:1px;
-	text-align:center;
-	padding-right:2px;
-	padding-left:1px;
-	
+.gi_Overunderbooked {
+
+    width: 30px;
+    display: inline;
+    background-color: #FF0000;
+    color: #FF0000;
+    border: 1px solid #FF0000;
+    margin-right: 1px;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 1px;
+
 }
-.gi_Unconfirmed 
-{
-	/* background-image:url('gfx/icon_islocked.gif'); */
-	width:30px;
-	display:inline;
-	background-color:#4983FF;
-	color:#4983FF;
-	border:1px solid #4983FF;
-	margin-right:1px;
-	text-align:center;
-	padding-right:2px;
-	padding-left:1px;
+.gi_Unconfirmed {
+    /* background-image:url('gfx/icon_islocked.gif'); */
+    width: 30px;
+    display: inline;
+    background-color: #4983FF;
+    color: #4983FF;
+    border: 1px solid #4983FF;
+    margin-right: 1px;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 1px;
 }
-.gi_ProductSuccession
-{
-	/* background-image:url('gfx/icon_islocked.gif'); */
-	width:30px;
-	display:inline;
-	background-color:#FFDF51;
-	color:#FFDF51;
-	border:1px solid #FFDF51;
-	margin-right:1px;
-	text-align:center;
-	padding-right:2px;
-	padding-left:1px;
+.gi_ProductSuccession {
+    /* background-image:url('gfx/icon_islocked.gif'); */
+    width: 30px;
+    display: inline;
+    background-color: #FFDF51;
+    color: #FFDF51;
+    border: 1px solid #FFDF51;
+    margin-right: 1px;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 1px;
 }
-DIV.legend 
-{
-	font-family:Verdana;
-	font-size:7pt;
-	font-weight:bold;
-	padding:4px;
-	border:1px solid black;
-	margin-top:2px;
-	margin-bottom:2px;
-	background-color:#a8a8a8;
-	color:White;
-	text-align:center;
+DIV.legend {
+    font-family: Verdana;
+    font-size: 7pt;
+    font-weight: bold;
+    padding: 4px;
+    border: 1px solid black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: #a8a8a8;
+    color: White;
+    text-align: center;
 }
-DIV.legendPlaylist
-{
-	font-family:Verdana;
-	font-size:7pt;
-	font-weight:bold;
-	padding:4px;
-	border:1px solid black;
-	margin-top:2px;
-	margin-bottom:2px;
-	
-	color:black;
-	text-align:center;
+DIV.legendPlaylist {
+    font-family: Verdana;
+    font-size: 7pt;
+    font-weight: bold;
+    padding: 4px;
+    border: 1px solid black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+    color: black;
+    text-align: center;
 }
 
-DIV.legendBasisReminder
-{
-	font-family:Verdana;
-	font-size:7pt;
-	font-weight:Normal;
-	padding:4px;
-	border:1px solid black;
-	margin-top:2px;
-	margin-bottom:2px;
-	background-color:#F0F8FF;
-	color:Black;
-	text-align:Center; 
-	word-spacing:0px;
-	display: block;
+DIV.legendBasisReminder {
+    font-family: Verdana;
+    font-size: 7pt;
+    font-weight: Normal;
+    padding: 4px;
+    border: 1px solid black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: #F0F8FF;
+    color: Black;
+    text-align: Center;
+    word-spacing: 0;
+    display: block;
 
 
-  	 
-	
 }
 .legendItemStandard {
-    color:Black;
-	font-family:Verdana;
-	font-size:7pt;
-	font-weight:normal;
-	padding-left:4px;
-    padding-right:4px;
-    margin-left:0px;
-    margin-right:0px;
-   	background-color:#F0F8FF;
-   	width:150px;
-   	
+    color: Black;
+    font-family: Verdana;
+    font-size: 7pt;
+    font-weight: normal;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #F0F8FF;
+    width: 150px;
+
 }
 
 .legendItemBasis {
-    color:Blue;
-	font-family:Verdana;
-	font-size:7pt;
-	font-weight:bold;
-	padding-left:4px;
-    padding-right:4px;
-    margin-left:0px;
-    margin-right:0px;
-   	background-color:#F0F8FF;
-   	width:150px;
-   	
+    color: Blue;
+    font-family: Verdana;
+    font-size: 7pt;
+    font-weight: bold;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #F0F8FF;
+    width: 150px;
+
 }
 
 .legendItemReminder {
-    color:Blue;
-	font-family:Verdana;
-	font-size:7pt;
-	font-weight:normal;
-	padding-left:4px;
-    padding-right:4px;
-    margin-left:0px;
-    margin-right:0px;
-   	background-color:#F0F8FF;
-   	width:150px;
+    color: Blue;
+    font-family: Verdana;
+    font-size: 7pt;
+    font-weight: normal;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #F0F8FF;
+    width: 150px;
 }
 
 .legendItemSelectedReminder {
-    color:Orange;
-	font-family:Verdana;
-	font-size:7pt;
-	font-weight:normal;
-	padding-left:4px;
-    padding-right:4px;
-    margin-left:0px;
-    margin-right:0px;
-   	background-color:#F0F8FF;
-   	width:150px;
+    color: Orange;
+    font-family: Verdana;
+    font-size: 7pt;
+    font-weight: normal;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #F0F8FF;
+    width: 150px;
 
 }
-.legendItemSelectedBasis{
-    color:Orange;
-	font-family:Verdana;
-	font-size:7pt;
-	font-weight:bold;
-	padding-left:4px;
-    padding-right:4px;
-    margin-left:0px;
-    margin-right:0px;
-   	background-color:#F0F8FF;
-   	width:150px;
+.legendItemSelectedBasis {
+    color: Orange;
+    font-family: Verdana;
+    font-size: 7pt;
+    font-weight: bold;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #F0F8FF;
+    width: 150px;
 }
 .legendItemStationTip {
-    width:30px;
-	display:inline;
-	background-color:#A084C2;
-	color:#A084C2;
-	border:1px solid #A084C2;
-	margin-right:1px;
-	text-align:center;
-	padding-right:2px;
-	padding-left:1px;
+    width: 30px;
+    display: inline;
+    background-color: #A084C2;
+    color: #A084C2;
+    border: 1px solid #A084C2;
+    margin-right: 1px;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 1px;
 }
 
 /*---------------------------------------------------------------------------*/
@@ -1495,59 +1488,61 @@ DIV.tabstripContainer {
     background-color: whitesmoke;
     padding: 5px;
 }
-.preventSelection
-{
-   user-select: none;
-   -o-user-select:none;
-   -moz-user-select: none;
-   -khtml-user-select: none;
-   -webkit-user-select: none;
+.preventSelection {
+    user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
 }
 DIV.modalPanel {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
-  filter: alpha(opacity=25);
-  -moz-opacity: 0.25;
-  -khtml-opacity: 0.25;
-  opacity: 0.25;
-  display:none;
-  z-index:999;
-  background:#ffffff;
-  position:absolute;
-  top:0px; left:0px;
-  height:100%;width:100%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+    filter: alpha(opacity=25);
+    -moz-opacity: 0.25;
+    -khtml-opacity: 0.25;
+    opacity: 0.25;
+    display: none;
+    z-index: 999;
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
 
 fieldset {
-    border:1px solid #dddddd;
+    border: 1px solid #dddddd;
 }
 
 DIV.PopupPanel {
-    background:whitesmoke;
+    background: whitesmoke;
     padding: 5px;
-    position:relative;
-    height:100%; width:99%;
+    position: relative;
+    height: 100%;
+    width: 99%;
 }
 INPUT.PopupPanelButtons {
-    position:absolute;
-    bottom:10px;
-    right:15px;
-    width:90px;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    width: 90px;
 }
-    INPUT.PopupPanelButtons[id*=btnSave] {
-        width: 100px;
-    }
+INPUT.PopupPanelButtons[id*=btnSave] {
+    width: 100px;
+}
 .AspxPopupPanelButtons {
-	position: absolute;
-	bottom: 10px;
-	right: 15px;
-	width: 90px;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    width: 90px;
 }
 
 HR.PopupPanelButtonsDivider {
-    position:absolute;
-    left:0px;
-    bottom:35px;
-    width:100%;
+    position: absolute;
+    left: 0;
+    bottom: 35px;
+    width: 100%;
     border-right: 0;
     border-left: 0;
 }
@@ -1556,7 +1551,7 @@ IFRAME.ConstraintWindow {
     overflow-y: scroll;
     width: 100%;
     height: 400px;
-    border: 0px;
+    border: 0;
     top: -10px;
 }
 SELECT.PopupChannelPicker {
@@ -1574,8 +1569,7 @@ SELECT.PopupChannelType {
     margin-bottom: -5px;
 }
 IMG.PopupChannelPicker {
-    margin: 5px;
-    margin-top: 20%;
+    margin: 20% 5px 5px;
     display: block;
     cursor: pointer;
 }
@@ -1586,7 +1580,7 @@ DIV.PopupFormLine {
     position: relative;
 }
 .OutsideConstraints {
-    color:#B5B4E3;
+    color: #B5B4E3;
     text-decoration: underline;
 }
 /* Fix to display bug introduced between 13.1 and 13.2 of DevExpress popup windows. */
@@ -1598,14 +1592,14 @@ DIV.dxpc-contentWrapper {
 }
 /* Minor update to place client logo watermark on full pages */
 HTML.mainpage {
-    background-attachment:fixed;
-    background-image:url(http://mediapro.gbm.local/images/gbm_watermark.png);
-    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-image: url('http://mediapro.gbm.local/images/gbm_watermark.png');
+    background-repeat: no-repeat;
     background-position: 2% 94%;
 }
 /* Minor updates to render devx grid control properly on pricing pages */
 INPUT.occE::-ms-clear {
-    display:none;
+    display: none;
 }
 
 /* A table that does not take up any space */
@@ -1616,9 +1610,8 @@ INPUT.occE::-ms-clear {
     margin: 0;
 }
 
-.CaptionStyle
-{
-    width: 100px!important;
+.CaptionStyle {
+    width: 100px !important;
 }
 
 .DXcontainer {
@@ -1626,17 +1619,17 @@ INPUT.occE::-ms-clear {
 }
 .DXleft {
     max-width: 100%;
-    white-space:nowrap;
-    overflow:hidden;
-    text-overflow:ellipsis;
-    -ms-text-overflow:ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
     float: left;
 }
 .DXright {
-    white-space:nowrap;
-    overflow:hidden;
-    text-overflow:ellipsis;
-    -ms-text-overflow:ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
     text-align: right;
 }
 .customButtonSearch {
@@ -1645,21 +1638,26 @@ INPUT.occE::-ms-clear {
     border-bottom: 1px solid #090e61;
     height: 16px !important;
     display: block !important;
-    padding: 2px 0px 0px 0px;
+    padding: 2px 0 0;
 }
 
 /* Override */
-.dxm-main {
-background: #d5d5d5!important;
+.dxm-item.dxm-main {
+    background: #d5d5d5 !important;
 }
 
 
-.dxm-selected {
-background: #b61f34!important;
-color: #ffffff!important;
+.dxm-item.dxm-selected {
+    background: #b61f34 !important;
+    color: #ffffff !important;
+    border-color: #8d1926 !important;
 }
 
-.dxm-hovered {
-background: #8d1926!important;
-color: #ffffff!important;
+.dxm-item.dxm-hovered {
+    background: #8d1926 !important;
+    color: #ffffff !important;
+}
+
+.dxm-selected.dxm-checked.dxm-hovered.dxm-item {
+    color: #ffffff !important;
 }

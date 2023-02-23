@@ -1,0 +1,97 @@
+body {
+    margin: 0px;
+    font-family: Verdana;
+    font-size: 11px;
+}
+
+
+/*normal width of table*/
+table {
+    /*width:100%; */
+    border: "1";
+}
+
+
+panel {
+    width: 98%;
+}
+
+/*getting the div and the imagebutton in the right size*/
+.ButtonDiv {
+    width: 24px;
+    height: 24px;
+}
+
+.ButtonIco {
+    width: 24px;
+    height: 24px;
+}
+
+/*enable & disable colors*/
+.TextBoxModifyMode:not([type=submit]):not([type=file]):not([type=button]) {
+    background-color: #FFFFFF;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.TextBoxDisplayMode:not([type=submit]):not([type=file]):not([type=button]) {
+    /* background-color:#FFFF66; */
+    background-color: #fcbbbb;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.TextBoxModifyMan:not([type=submit]):not([type=file]):not([type=button]) {
+    /* background-color:#3FFFC2; */
+    background-color: #bafdcb;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+/* grid related styles */
+.waitgrid {
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* ContextMenu styles */
+
+.TreeContextItem {
+    font-family: Arial;
+    font-size: 10px;
+    cursor: pointer;
+    cursor: hand;
+    padding-left: 4px;
+    height: 24px;
+    background-color: #F6F6F6;
+    background-image: url(itemsBg.gif);
+    background-repeat: repeat-y;
+    width: 100%;
+    text-align: left;
+}
+
+.TreeContextItemOver {
+    font-family: Arial;
+    font-size: 10px;
+    cursor: pointer;
+    cursor: hand;
+    padding-left: 4px;
+    height: 24px;
+    background-color: #fcbbbb;
+    width: 100%;
+    text-align: left;
+}
+
+.PopupLink {
+    cursor: pointer;
+}
+
+    .PopupLink:hover {
+        text-decoration: underline;
+    }
+
+.tableLayout {
+    border-collapse: separate;
+    border-spacing: 5px;
+}

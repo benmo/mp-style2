@@ -1591,12 +1591,14 @@ DIV.dxpc-contentWrapper {
     height: 100%;
 }
 /* Minor update to place client logo watermark on full pages */
+/* remove watermark, 23.02.2023 gbm/beb 
 HTML.mainpage {
     background-attachment: fixed;
     background-image: url('http://mediapro.gbm.local/images/gbm_watermark.png');
     background-repeat: no-repeat;
     background-position: 2% 94%;
 }
+*/
 /* Minor updates to render devx grid control properly on pricing pages */
 INPUT.occE::-ms-clear {
     display: none;
@@ -1642,7 +1644,7 @@ INPUT.occE::-ms-clear {
 }
 
 /* Override */
-.dxm-item.dxm-main {
+.dxm-main {
     background: #d5d5d5 !important;
 }
 
@@ -1658,6 +1660,6 @@ INPUT.occE::-ms-clear {
     color: #ffffff !important;
 }
 
-.dxm-selected.dxm-checked.dxm-hovered.dxm-item {
+.dxm-popup.dxm-item {
     color: #ffffff !important;
 }

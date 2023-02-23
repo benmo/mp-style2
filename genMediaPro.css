@@ -36,7 +36,7 @@ panel {
 
 .TextBoxDisplayMode:not([type=submit]):not([type=file]):not([type=button]) {
     /* background-color:#FFFF66; */
-    background-color: #e4f1ff;
+    background-color: #edebfa;
     font-family: Arial;
     font-size: 12px;
 }
@@ -78,7 +78,7 @@ panel {
     cursor: hand;
     padding-left: 4px;
     height: 24px;
-    background-color: #e4f1ff;
+    background-color: #edebfa;
     width: 100%;
     text-align: left;
 }

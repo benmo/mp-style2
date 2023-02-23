@@ -151,7 +151,7 @@ INPUT.EasyDateInputText::-ms-clear {
     text-align: center
 }
 .SiteHeader {
-    background-image: url('http://mediapro.gbm.local/images/Image1_1x1.gif');
+    background-image: url('images/Image1_1x1.gif');
     background-repeat: no-repeat;
     background-position: left top;
     padding-right: 20px;
@@ -159,7 +159,7 @@ INPUT.EasyDateInputText::-ms-clear {
 .ToolBar {
     border-left: 1px solid #808080;
     border-right: 1px solid #808080;
-    background-image: url('http://mediapro.gbm.local/images/toolbarBgH.gif')
+    background-image: url('images/toolbarBgH.gif')
 }
 .ToolBarbutton {
     padding-top: 1px;
@@ -239,12 +239,12 @@ INPUT.EasyDateInputText::-ms-clear {
     height: 20px;
     border-top: 1px solid #BDE1FA;
     border-bottom: 1px solid #5296C6;
-    background: url('http://mediapro.gbm.local/images/disclaimergradient.gif');
+    background: url('images/disclaimergradient.gif');
     background-repeat: repeat-x;
 }
 
 .TDHeader {
-    background-image: url('http://mediapro.gbm.local/images/SiteHeader_Gradient_Filler.jpg');
+    background-image: url('images/SiteHeader_Gradient_Filler.jpg');
     background-repeat: repeat-x;
 }
 
@@ -262,7 +262,7 @@ INPUT.EasyDateInputText::-ms-clear {
 
 TD.selected {
     border: 1px solid black;
-    background: url('http://mediapro.gbm.local/images/selectiongradient.gif');
+    background: url('images/selectiongradient.gif');
     color: Black;
 }
 
@@ -284,7 +284,7 @@ TD.selected {
     margin-right: 8px;
 }
 .OrderHeader {
-    /* background-color:#669CC2; */
+    /* background-color:#669CC2; gbm/beb */
     background-color: #a8a8a8;
     color: white;
     border: 1px solid black;
@@ -369,7 +369,7 @@ TD.selected {
 .bgm_cellSel {
     height: 50px;
     width: 60px;
-    background: url('http://mediapro.gbm.local/images/selectiongradient.gif');
+    background: url('images/selectiongradient.gif');
     background-repeat: repeat;
     background-color: #7FC3F2;
     color: Black;
@@ -383,7 +383,7 @@ TD.selected {
 .bgm_copiedCell {
     height: 40px;
     width: 60px;
-    background: url('http://mediapro.gbm.local/images/selectiongradient.gif');
+    background: url('images/selectiongradient.gif');
     color: Black;
     border: #000000 1px dashed;
 }
@@ -441,7 +441,7 @@ TD.selected {
 /* This item is the "div" that pops up underneath the main menu item */
 .aspMenu {
     border: 1px solid black;
-    background-image: url('http://mediapro.gbm.local/images/ItemsBg.gif');
+    background-image: url('images/ItemsBg.gif');
     background-repeat: repeat-y;
     z-index: 2000;
 }
@@ -488,7 +488,7 @@ TD.selected {
 
 /* This is the top-level menu despite the name */
 .aspLevelMenuSubItem {
-    background-image: url('http://mediapro.gbm.local/images/menuitemgradient.gif');
+    background-image: url('images/menuitemgradient.gif');
     color: White;
 }
 
@@ -612,6 +612,7 @@ TABLE.grdHierarchy TH {
 }
 .ListView TH {
     color: White;
+	/* background-color:#639ABD; gbm/beb */
     background-color: #a8a8a8;
     font-family: Verdana;
     font-size: 10px;
@@ -633,6 +634,7 @@ TABLE.grdHierarchy TH {
 }
 .ListView tr.RowDark {
     color: #000000;
+	/* background-color:#639ABD; gbm/beb */
     background-color: #ebebeb;
     text-decoration: none;
 }
@@ -643,6 +645,7 @@ TABLE.grdHierarchy TH {
 }
 .ListView tr.RowSelect {
     color: #FFFFFF;
+	/* background-color:#639ABD; gbm/beb */
     background-color: #8d1926;
     text-decoration: none;
 }
@@ -695,6 +698,7 @@ TABLE.grdHierarchy TH {
     font-weight: bold;
     color: White;
     text-align: right;
+	/* background-color:#639ABD; gbm/beb */
     background-color: #a8a8a8;
     height: 20px;
     width: 440px;
@@ -723,7 +727,7 @@ TABLE.grdHierarchy TH {
 
 .DivHeader {
     cursor: move;
-    background: url('http://mediapro.gbm.local/images/disclaimergradient.gif');
+    background: url('images/disclaimergradient.gif');
     background-repeat: repeat-x;
     height: 18px;
     background-color: #82C6F6;
@@ -822,13 +826,13 @@ TABLE.grdHierarchy TH {
     text-align: center;
 }
 .EasyTab.On {
-    background-image: url('http://mediapro.gbm.local/images/tabstrip/tabMiddleOn.gif');
+    background-image: url('images/tabstrip/tabMiddleOn.gif');
     background-repeat: repeat-x;
     padding-top: 4px;
     height: 22px;
 }
 .EasyTab.Off {
-    background-image: url('http://mediapro.gbm.local/images/tabstrip/tabMiddleOff.gif');
+    background-image: url('images/tabstrip/tabMiddleOff.gif');
     margin-top: 2px;
     padding-top: 3px;
     height: 19px;
@@ -840,20 +844,20 @@ TABLE.grdHierarchy TH {
 }
 .EasyTabSide.Left.Off {
     margin-top: 2px;
-    background-image: url('http://mediapro.gbm.local/images/tabstrip/tabLeftOff.gif');
+    background-image: url('images/tabstrip/tabLeftOff.gif');
     height: 19px;
 }
 .EasyTabSide.Left.On {
-    background-image: url('http://mediapro.gbm.local/images/tabstrip/tabLeftOn.gif');
+    background-image: url('images/tabstrip/tabLeftOn.gif');
     height: 22px;
 }
 .EasyTabSide.Right.Off {
     margin-top: 2px;
-    background-image: url('http://mediapro.gbm.local/images/tabstrip/tabRightOff.gif');
+    background-image: url('images/tabstrip/tabRightOff.gif');
     height: 19px;
 }
 .EasyTabSide.Right.On {
-    background-image: url('http://mediapro.gbm.local/images/tabstrip/tabRightOn.gif');
+    background-image: url('images/tabstrip/tabRightOn.gif');
     height: 22px;
 }
 
@@ -949,7 +953,7 @@ DIV.contextmenu {
     cursor: pointer;
     background-color: #ededed;
     visibility: hidden;
-    background-image: url('..http://mediapro.gbm.local/images/contextmenugradient.gif');
+    background-image: url('../images/contextmenugradient.gif');
     background-repeat: repeat-y;
     padding-bottom: 10px
 }
@@ -986,11 +990,11 @@ DIV.contextmenuitemselected {
     width: 100%;
 
     background-color: white;
-    background-image: url('..http://mediapro.gbm.local/images/contextmenugradientselected.gif');
+    background-image: url('../images/contextmenugradientselected.gif');
     background-repeat: repeat-y;
 }
 DIV.contextmenusep {
-    background-image: url('..http://mediapro.gbm.local/images/menuseperator.gif');
+    background-image: url('../images/menuseperator.gif');
     background-repeat: repeat-y;
     background-position: center;
 }
@@ -1370,6 +1374,7 @@ DIV.legend {
     border: 1px solid black;
     margin-top: 2px;
     margin-bottom: 2px;
+	/* background-color:#669CC2; gbm/beb */
     background-color: #a8a8a8;
     color: White;
     text-align: center;
@@ -1669,4 +1674,8 @@ INPUT.occE::-ms-clear {
 .dxmLite_Aqua .dxm-popup,
 .dxmLite_Aqua .dxm-popup .dxm-item a.dx {
     color: #ffffff !important;
+}
+
+.ui-widget-header {
+	background: #8d1926 !important;
 }

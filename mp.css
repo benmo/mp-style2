@@ -1665,14 +1665,7 @@ INPUT.occE::-ms-clear {
     color: #ffffff !important;
 }
 
-.dxmLite_Aqua .dxm-selected,
-.dxmLite_Aqua .dxm-checked,
-.dxmLite_Aqua .dxm-hovered,
-.dxmLite_Aqua .dxm-selected a.dx,
-.dxmLite_Aqua .dxm-checked a.dx,
-.dxmLite_Aqua .dxm-hovered a.dx,
-.dxmLite_Aqua .dxm-popup,
-.dxmLite_Aqua .dxm-popup .dxm-item a.dx {
+.dxmLite_Aqua .dxm-hovered a.dx {
     color: #ffffff !important;
 }
 

@@ -29,7 +29,7 @@ panel {
 
 /*enable & disable colors*/
 .TextBoxModifyMode:not([type=submit]):not([type=file]):not([type=button]) {
-    background-color: #FFFFFF;
+    background-color: #f3f3f3;
     font-family: Arial;
     font-size: 12px;
 }
@@ -43,7 +43,7 @@ panel {
 
 .TextBoxModifyMan:not([type=submit]):not([type=file]):not([type=button]) {
     /* background-color:#3FFFC2; */
-    background-color: #bafdcb;
+    background-color: #bafdcb; // #f6a7fe6b
     font-family: Arial;
     font-size: 12px;
 }

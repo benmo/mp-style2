@@ -232,13 +232,13 @@ INPUT.EasyDateInputText::-ms-clear {
     padding-top: 2px;
     padding-left: 5px;
     padding-right: 5px;
-    background-color: #82C6F6;
+    background-color: #b8b4b4 /*#82C6F6 gbm/beb*/;
     color: #ffffff;
     font-weight: bold;
     vertical-align: middle;
     height: 20px;
-    border-top: 1px solid #BDE1FA;
-    border-bottom: 1px solid #5296C6;
+    border-top: 1px solid #d3d0d0 /*#BDE1FA gbm/beb*/;
+    border-bottom: 1px solid #888787 /*#5296C6 gbm/beb*/;
     background: url('images/disclaimergradient.gif');
     background-repeat: repeat-x;
 }
@@ -1675,7 +1675,7 @@ INPUT.occE::-ms-clear {
 }
 
 .dxm-popup .dxm-hovered {
-	color: #8d1926 !important;
+	background-color: #8d1926 !important;
 }
 
 .OrderHeader {

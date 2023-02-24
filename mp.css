@@ -421,7 +421,7 @@ TD.selected {
     background-color: #FFFFFF;
 }
 .TextBoxDisplayMode:not([type=submit]):not([type=file]):not([type=button]) {
-    background-color: #FFFF66;
+    background-color: #edebfa /* #FFFF66 gbm/beb */;
 }
 .TextBoxDueDaysSaleshouse {
     background-color: #19FF34;

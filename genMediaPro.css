@@ -43,7 +43,7 @@ panel {
 
 .TextBoxModifyMan:not([type=submit]):not([type=file]):not([type=button]) {
     /* background-color:#3FFFC2; */
-    background-color: #bafdcb; // #f6a7fe6b
+    background-color: #bafdcb; 
     font-family: Arial;
     font-size: 12px;
 }

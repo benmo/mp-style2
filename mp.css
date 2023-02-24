@@ -1001,6 +1001,7 @@ DIV.contextmenusep {
 
 /*---------------------------------------------------------------------------*/
 /*** Wizard classes ***/
+/* changed theme + colors 24.02.2023, gbm/beb */
 /*---------------------------------------------------------------------------*/
 
 .wizard_table {
@@ -1008,7 +1009,7 @@ DIV.contextmenusep {
 }
 
 .wizard_title {
-    background-color: blue;
+    background-color: #b61f34;
     color: white;
     font-weight: bold;
     height: 16px;
@@ -1019,8 +1020,8 @@ DIV.contextmenusep {
     color: black;
     font-weight: bold;
     vertical-align: top;
-    border-left: 4px solid #0836DB;
-    border-right: 4px solid #0836DB;
+    border-left: 4px solid #b61f34;
+    border-right: 4px solid #b61f34;
     padding: 8px
 }
 
@@ -1029,8 +1030,8 @@ DIV.contextmenusep {
     color: black;
     font-weight: bold;
     height: 8px;
-    border-left: 4px solid #0836DB;
-    border-right: 4px solid #0836DB;
+    border-left: 4px solid #b61f34;
+    border-right: 4px solid #b61f34;
 }
 
 .wizard_content {
@@ -1039,8 +1040,8 @@ DIV.contextmenusep {
     font-weight: normal;
     height: 300px;
     vertical-align: top;
-    border-left: 4px solid #0836DB;
-    border-right: 4px solid #0836DB;
+    border-left: 4px solid #b61f34;
+    border-right: 4px solid #b61f34;
     padding: 4px
 }
 
@@ -1050,8 +1051,8 @@ DIV.contextmenusep {
     font-weight: normal;
     height: 600px;
     vertical-align: top;
-    border-left: 4px solid #0836DB;
-    border-right: 4px solid #0836DB;
+    border-left: 4px solid #b61f34;
+    border-right: 4px solid #b61f34;
     padding: 4px
 }
 
@@ -1061,9 +1062,9 @@ DIV.contextmenusep {
     color: black;
     font-weight: bold;
     height: 28px;
-    border-left: 4px solid #0836DB;
-    border-right: 4px solid #0836DB;
-    border-bottom: 4px solid #0836DB;
+    border-left: 4px solid #b61f34;
+    border-right: 4px solid #b61f34;
+    border-bottom: 4px solid #b61f34;
     vertical-align: top;
     padding: 4px
 }
@@ -1079,7 +1080,7 @@ DIV.contextmenusep {
     font-size: 8pt;
 }
 .wizard_bookingunitheader {
-    background-color: #639ABD;
+    background-color: #cfcfcf;
     color: white;
     font-size: 8pt;
     font-weight: bold;
@@ -1649,10 +1650,10 @@ INPUT.occE::-ms-clear {
 }
 
 /* Override */
+/* gbm/beb, 23.02.2022- */
 .dxm-main {
     background: #d5d5d5 !important;
 }
-
 
 .dxm-item.dxm-selected {
     background: #b61f34 !important;

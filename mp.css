@@ -1670,6 +1670,10 @@ INPUT.occE::-ms-clear {
     color: #ffffff !important;
 }
 
+.dxmLite_Aqua .dxm-popup .dxm-hovered {
+	border-color: #8d1926 !important;
+}
+
 .ui-widget-header {
 	background: #8d1926 !important;
 }

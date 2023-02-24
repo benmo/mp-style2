@@ -1676,3 +1676,11 @@ INPUT.occE::-ms-clear {
 .dxm-popup .dxm-hovered {
 	color: #8d1926 !important;
 }
+
+.OrderHeader {
+	background-color: #a8a8a8 !important;
+}
+
+DIV.basketheader {
+	background-color: #a8a8a8 !important;
+}

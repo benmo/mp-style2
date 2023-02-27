@@ -148,7 +148,9 @@ INPUT.EasyDateInputText::-ms-clear {
     padding-right: 10px;
     color: White;
     font-weight: bold;
-    text-align: center
+    text-align: center;
+	font-family: "Segoe UI", "Segoe UI", sans-serif;
+	font-size: 13px;
 }
 .SiteHeader {
     background-image: url('images/Image1_1x1.gif');

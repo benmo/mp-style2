@@ -641,7 +641,7 @@ TABLE#tblResults TD IMG
 .tabSessionTotals TH {
     text-decoration:underline;
 	color:White;
-	background-color:#639ABD;
+	background-color: #a8a8a8; /* #639ABD; */
 	font-family:Verdana;
 	font-size:10px;
 	font-weight:bold;

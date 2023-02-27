@@ -1651,11 +1651,11 @@ INPUT.occE::-ms-clear {
 
 /* Override */
 /* gbm/beb, 23.02.2022- */
-.dxm-item.dxm-subMenu .dxm-main .dxm-horizontal {
+.dxm-main.dxm-horizontal .dxm-item.dxm-subMenu {
     background: #d5d5d5 !important;
 }
 
-.dxm-item.dxm-noSubMenu .dxm-main .dxm-horizontal {
+.dxm-main.dxm-horizontal .dxm-item.dxm-noSubMenu {
     background: #d5d5d5 !important;
 }
 

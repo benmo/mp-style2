@@ -1652,6 +1652,10 @@ INPUT.occE::-ms-clear {
 /* Override */
 /* gbm/beb, 23.02.2022- */
 
+.dxmLite .dxm-main.dxm-horizontal.dxmtb {
+    background: transparent !important;
+}
+
 .dxm-main.dxm-horizontal {
     background: #d5d5d5 !important;
 }

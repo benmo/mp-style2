@@ -1663,6 +1663,10 @@ INPUT.occE::-ms-clear {
 	border-color: #d5d5d5 !important;
 }
 
+.dxmLite_Aqua.dxm-horizontal {
+	background: #d5d5d5 !important;
+}
+
 .dxm-item.dxm-selected {
     background: #b61f34 !important;
     color: #ffffff !important;

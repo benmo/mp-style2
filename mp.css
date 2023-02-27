@@ -528,13 +528,13 @@ TD.selected {
 
 .grdTH {
     color: White;
-    background-color: #639ABD;
+    background-color: #8d1926;/*#639ABD; gbm/beb */
     font-family: Verdana;
     font-size: 10px;
     font-weight: bold;
     font-style: normal;
     text-decoration: none;
-    border-bottom: 1px ridge darkblue;
+    border-bottom: 1px ridge #626262;
 }
 
 .grdTR {

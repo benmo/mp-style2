@@ -1651,12 +1651,16 @@ INPUT.occE::-ms-clear {
 
 /* Override */
 /* gbm/beb, 23.02.2022- */
-.dxm-main.dxm-horizontal .dxm-item.dxm-subMenu {
+.dxm-item.dxm-subMenu {
     background: #d5d5d5 !important;
 }
 
-.dxm-main.dxm-horizontal .dxm-item.dxm-noSubMenu {
+.dxm-item.dxm-noSubMenu {
     background: #d5d5d5 !important;
+}
+
+.dxmLite_Aqua.dxm-main {
+	border-color: #d5d5d5 !important;
 }
 
 .dxmLite_Aqua .dxm-main {
@@ -1669,10 +1673,6 @@ INPUT.occE::-ms-clear {
 
 .dxmLite_Aqua .dxm-main .dxm-separator b {
 	background-color: #a7a7a7 !important;
-}
-
-.dxmLite_Aqua .dxm-popup {
-	border: 1px solid #a7a7a7 !important;
 }
 
 .dxm-item.dxm-selected {

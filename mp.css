@@ -613,7 +613,7 @@ TABLE.grdHierarchy TH {
 .ListView TH {
     color: White;
 	/* background-color:#639ABD; gbm/beb */
-    background-color: #b61f34; /* #a8a8a8;*/
+    background-color: #a8a8a8;
     font-family: Verdana;
     font-size: 10px;
     font-weight: bold;

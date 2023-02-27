@@ -1664,10 +1664,7 @@ INPUT.occE::-ms-clear {
 }
 
 .dxmLite_Aqua .dxm-main {
-	border-top-color: #d5d5d5 !important;
-	border-right-color: #d5d5d5 !important;
-	border-bottom-color: #d5d5d5 !important;
-	border-left-color: #d5d5d5 !important;
+	border: 1px solid #d5d5d5 !important;
 }
 
 .dxmLite_Aqua.dxm-horizontal {

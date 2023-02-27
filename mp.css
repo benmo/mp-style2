@@ -1659,16 +1659,20 @@ INPUT.occE::-ms-clear {
     background: #d5d5d5 !important;
 }
 
-.dxmLite_Aqua.dxm-main {
-	border-color: #d5d5d5 !important;
-}
-
 .dxmLite_Aqua .dxm-main {
 	border: 1px solid #d5d5d5 !important;
 }
 
 .dxmLite_Aqua .dxm-horizontal {
-	background: #d5d5d5 !important;
+	background: #afafaf !important;
+}
+
+.dxmLite_Aqua .dxm-main .dxm-separator b {
+	background-color: #a7a7a7 !important;
+}
+
+.dxmLite_Aqua .dxm-popup {
+	border: 1px solid #a7a7a7 !important;
 }
 
 .dxm-item.dxm-selected {

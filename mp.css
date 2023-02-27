@@ -1651,9 +1651,6 @@ INPUT.occE::-ms-clear {
 
 /* Override */
 /* gbm/beb, 23.02.2022- */
-.dxm-item.dxm-subMenu {
-    background: #d5d5d5 !important;
-}
 
 .dxm-main.dxm-horizontal {
     background: #d5d5d5 !important;
@@ -1665,10 +1662,6 @@ INPUT.occE::-ms-clear {
 
 .dxmLite_Aqua .dxm-main {
 	border: 1px solid #d5d5d5 !important;
-}
-
-.dxmLite_Aqua .dxm-horizontal {
-	background: #afafaf !important;
 }
 
 .dxmLite_Aqua .dxm-main .dxm-separator b {

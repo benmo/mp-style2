@@ -1,0 +1,692 @@
+/* MLContextMenu styles */
+DIV.contextmenu 
+{
+	z-index:6000;
+	position:absolute;
+	top:10px;
+	left:500px;
+	width:200px;
+	border:1px solid black;
+	color:Black;
+	cursor:hand;
+	background-color:#ededed;
+	visibility:hidden;
+	background-image:url('../images/planning/contextmenugradient.gif');
+	background-repeat:repeat-y;
+	padding-bottom:10px;
+}
+/* MLContextMenu styles */
+DIV.readonly 
+{
+	background-color:#aaaaaa;
+	background-image:url('');
+	color:#666666;
+	cursor:text;
+}
+DIV.contextmenuheader
+{
+	background-color:#60a0ff;
+	color:White;
+	padding:4px;
+	border-bottom:1px solid black;
+	font-weight:bold;
+	border-top:1px solid white
+}
+DIV.contextmenuitem 
+{
+	text-indent:26px;
+	vertical-align:middle;
+	padding:4px 0px 4px 0px;
+	width:100%
+}
+DIV.contextmenuitemselected
+{
+	text-indent:26px;
+	vertical-align:middle;
+	padding:4px 0px 4px 0px;
+	width:100%;
+	
+	background-color:white;
+	background-image:url('../images/planning/contextmenugradientselected.gif');
+	background-repeat:repeat-y;
+}
+DIV.contextmenusep
+{
+	background-image:url('../images/planning/menuseperator.gif');
+	background-repeat:repeat-y;
+	background-position:center;
+}
+/* End MLContextMenu styles */
+
+/* Basket */
+DIV.Basket {
+	z-index:199;
+    position:absolute;
+    display:block;
+    left:-180px;
+    top:120px;
+    width:200px;    
+    cursor:pointer;
+    border:none;     
+    background-image:url('../images/planning/pinPanel_bkg_grip_dark.gif');
+    background-repeat:repeat-y;
+}
+DIV.BasketContent{		
+	padding-left:8px;	
+	padding-top:4px;
+}
+TH.basketTH {
+    border:1px solid #8080ff;
+    color:white;
+    background-color:#4040cf;
+    text-align:center;
+}
+DIV.basketheader {	
+	background-color:#669CC2;
+	color:white;
+	font-size:8pt;
+	font-weight:bold;	
+	padding:1px;
+	border:1px solid #808080;
+	text-align:center;
+}
+/* End Basket */
+
+/* Tree */
+DIV.mltreeview {
+	background-color:white;
+	overflow-y:scroll;	
+	border-left:1px solid black;
+	border-bottom:1px solid black;    
+    font-family:Verdana;
+}
+TD.xlevel1 {
+    background-color:#f0f0f0;
+    vertical-align:middle;
+    border:1px solid #c0c0c0;
+    height:18px;
+    font-weight:bold;
+    text-align:left;
+    padding:0px;
+    padding-left:4px;
+}
+TD.xlevel2 {
+    background-color:white;
+	vertical-align:middle;
+    border-left:1px solid #c0c0c0;
+    border-right:1px solid #c0c0c0;
+    height:20px;
+    padding:0px;
+    padding-left:4px;
+}
+TD.xlevelchk 
+{
+	vertical-align:top;
+	text-align:center;
+	width:25px;
+    padding:0px;
+}
+
+IMG.checkbox {
+    vertical-align:middle
+}
+
+DIV.tabpage {
+    display:block;
+    z-index:1000;
+    border:1px solid #c0c0c0;
+    margin-top:-4px;
+    padding-top:8px;
+    padding-left:10px;
+    background-color:white;
+}
+/* End Tree */
+
+/* Workset */
+.spotgroup {
+    border:0px solid black;
+    background-color:#96CCF2;
+    border-bottom:1px solid #4E7895;
+    border-right:1px solid #4E7895;
+    color:#4E7895;
+    text-align:center;
+    font-size:9pt;
+}
+/* End Workset */
+
+/* Grid */
+.gridmain {
+    font-family:Verdana;
+    font-size:7pt;
+    background-color:#96CCF2;
+}
+.gridheadercell {
+    height:32px;
+    width:60px;
+    background-color:#669CC2;
+    border:1px solid black;
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:7pt;
+}
+.gridheadercell_weekend {
+    height:32px;
+    width:60px;
+    background-color:#4E7895;
+    border:1px solid black;
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:7pt;
+}
+.gridrowcell {
+    height:44px;
+    width:60px;
+    background-color:#669CC2;    
+    text-align:center;
+	vertical-align:top;
+    color:white;
+    font-weight:bold;
+    font-size:7pt;
+    border:1px solid black;
+    padding-top:5px; 
+	margin:1px;
+	margin-bottom:2px;
+	overflow:hidden;  	
+	overflow:hidden; 
+}
+DIV.rctime {	
+	font-size:9pt;
+	background-color:#96CCF2;
+	border:1px solid black;
+	padding:1px;	
+	color:Black;
+}
+.gridemptycell {
+    height:49px;
+    width:60px;
+    background-color:#96CCF2;
+    border:1px solid #4E7895;
+    text-align:center;
+}
+.gridemptycell_weekend {
+    height:49px;
+    width:60px;
+    background-color:#76ACD2;
+    border:1px solid #4E7895;
+    text-align:center;
+}
+.gridtd {
+    height:49px;
+    width:60px;
+    background-color:#ffffff; /*#ffffc0; */
+    border:1px solid black;
+    cursor:hand;
+    vertical-align:top;
+    text-align:center;
+    font-size:7pt;
+    padding:0px;
+}
+.gridtd_weekend {
+    height:49px;
+    width:60px;
+    background-color:#e8e8e8; /* #E8E8AF; */
+    border:1px solid black;
+    cursor:hand;
+    vertical-align:top;
+    text-align:center;
+    font-size:7pt;
+    padding:0px;
+}
+.gridtd_sel {
+    background-image:url('../images/planning/selectiongradient2.gif');
+    height:49px;
+    width:60px;
+    border:1px solid black;
+    cursor:hand;
+    vertical-align:top;
+    text-align:center;
+    font-size:7pt;
+    padding:0px;
+}
+.gridtd_booked {
+    background-color:#80ff80;
+    height:49px;
+    width:60px;
+    border:1px solid #20c020;
+    border-left:1px solid white;
+    border-top:1px solid white;
+    cursor:hand;
+    vertical-align:top;
+    text-align:center;
+    font-size:7pt;
+    padding:0px;
+}
+.gridtd_weekend_booked {
+    background-color:#80ff80;
+    height:49px;
+    width:60px;
+    border:1px solid #20c020;
+    border-left:1px solid white;
+    border-top:1px solid white;
+    cursor:hand;
+    vertical-align:top;
+    text-align:center;
+    font-size:7pt;
+    padding:0px;
+}
+
+.gridtd_booked_samegroup {
+    background-color:#ffff80;
+    height:49px;
+    width:60px;
+    border:1px solid #c0c020;
+    border-left:1px solid white;
+    border-top:1px solid white;
+    cursor:hand;
+    vertical-align:top;
+    text-align:center;
+    font-size:7pt;
+    padding:0px;
+}
+.gridtd_weekend_booked_samegroup {
+    background-color:#ffff80;
+    height:49px;
+    width:60px;
+    border:1px solid #c0c020;
+    border-left:1px solid white;
+    border-top:1px solid white;
+    cursor:hand;
+    vertical-align:top;
+    text-align:center;
+    font-size:7pt;
+    padding:0px;
+}
+
+.gridtd_smile {
+    background-image:url('../images/planning/selectiongradient_smile.gif');
+    height:49px;
+    width:60px;
+    border:1px solid black;
+    cursor:hand;
+    vertical-align:top;
+    text-align:center;
+    font-size:7pt;
+    padding:0px;
+    color:White;
+}
+
+DIV.gi 
+{
+	height:12px;
+	padding:1px;
+	text-align:left;
+	font-family:Verdana;
+	font-size:7pt;
+	font-weight:bold;
+	margin-top:1px;
+	display:block;
+}
+.gi_fatherson 
+{
+	width:10px;
+	display:inline;
+	background-color:#cccccc;
+	color:#404040;
+	border:1px solid #808000;
+	margin-right:1px;
+	text-align:center;
+	padding-right:2px;
+	padding-left:1px;
+}
+
+.gi_fathersonCCFS 
+{
+	width:10px;
+	display:inline;
+	background-color:#FFD800;
+	color:#404040;
+	border:1px solid #808000;
+	margin-right:1px;
+	text-align:center;
+	padding-right:2px;
+	padding-left:1px;
+}
+
+.gi_slock 
+{
+	/* background-image:url('gfx/icon_islocked.gif'); */
+	width:10px;
+	display:inline;
+	background-color:#ffff00;
+	color:#404040;
+	border:1px solid #808000;
+	margin-right:1px;
+	text-align:center;
+	padding-right:2px;
+	padding-left:1px;
+}
+.gi_tlock 
+{
+	/* background-image:url('gfx/icon_islocked.gif'); */
+	width:10px;
+	display:inline;
+	background-color:#80ff80;
+	color:#404040;
+	border:1px solid #408040;
+	margin-right:1px;
+	text-align:center;
+	padding-right:2px;
+	padding-left:1px;
+}
+.gi_ilock 
+{
+	/* background-image:url('gfx/icon_islocked.gif'); */
+	width:10px;
+	display:inline;
+	background-color:Blue;
+	color:white;
+	border:1px solid Black;
+	margin-right:1px;
+	text-align:center;
+	padding-right:2px;
+	padding-left:1px;
+}
+.gi_deleted
+{
+	/* background-image:url('gfx/icon_isdeleted.gif'); */
+	width:10px;
+	display:inline;
+	background-color:Black;
+	color:White;
+	border:1px solid White;
+	margin-right:1px;
+	text-align:center;
+	padding-right:2px;
+	padding-left:1px;
+}
+.gi_overbook
+{
+	/* background-image:url('gfx/icon_isoverbooked.gif'); */
+	width:10px;
+	display:inline;
+	background-color:Red;
+	color:White;
+	border:1px solid #800000;
+	margin-right:1px;
+	text-align:center;
+	padding-right:2px;
+	padding-left:1px;
+}
+.gi_pclash
+{
+	/* background-image:url('gfx/icon_warning.gif'); */
+	width:10px;
+	display:inline;
+	background-color:#ffa0a0;
+	color:#800000;
+	border:1px solid Red;
+	margin-right:1px;
+	text-align:center;
+	padding-right:2px;
+	padding-left:1px;
+}
+.gi_aclash
+{
+	/* background-image:url('gfx/icon_warning.gif'); */
+	width:10px;
+	display:inline;
+	background-color:Blue;
+	color:White;
+	border:1px solid Black;
+	margin-right:1px;
+	text-align:center;
+	padding-right:2px;
+	padding-left:1px;
+}
+ .gi_freespace
+{
+	width:10px;
+	display:inline;
+	background-color:#FF3300;
+	color:White;
+	border:1px solid #FF3300;
+	margin-right:1px;
+	text-align:center;
+	padding-right:2px;
+	padding-left:1px;
+}
+  .gi_finallock
+{
+	width:10px;
+	display:inline;
+	background-color:#FF6A00;
+	color:White;
+	border:1px solid #FF6A00;
+	margin-right:1px;
+	text-align:center;
+	padding-right:2px;
+	padding-left:1px;
+}
+  .gi_stationtip
+{
+	width:10px;
+	display:inline;
+	background-color:#8064A2;
+	color:black;
+	border:1px solid black;
+	margin-right:1px;
+	text-align:center;
+	padding-right:2px;
+	padding-left:1px;
+}
+.gi_adlinkbooked {
+    width:10px;
+	display:inline;
+	background-color:#E2A9F3;
+	color:black;
+	border:1px solid black;
+	margin-right:1px;
+	text-align:center;
+	padding-right:2px;
+	padding-left:1px;
+}
+
+DIV.legend 
+{
+	font-family:Verdana;
+	font-size:7pt;
+	font-weight:bold;
+	padding:4px;
+	border:1px solid black;
+	margin-top:2px;
+	margin-bottom:2px;
+	background-color:#a8a8a8; /* #669CC2; gbm/beb */
+	color:White;
+	text-align:center;
+}
+/* End Grid */
+
+/* General */
+.tablepanel 
+{
+	border:1px solid #d0d0d0;
+	background-color:#ececec;
+	margin-right:8px;
+	height:100%;
+}
+.Buttonpanel 
+{
+	border:1px solid #d0d0d0;
+	background-color:#ececec;
+	margin-right:8px;	
+}
+.OrderHeader 
+{
+	/* background-color:#669CC2; */
+	background-color:#669CC2;
+	color:white;
+	border:1px solid black;
+	font-weight:normal;
+	padding:2px;
+}
+
+/* Spotgroups/Spots */
+SELECT#cboSpotgroups 
+{
+	font-size:8pt;
+	font-weight:bold;	
+}
+
+DIV#divSpots 
+{
+	background-color:white;
+	overflow:scroll; 
+	height:210px;	
+	border-left:1px solid #808080;
+	border-right:1px solid #808080
+}
+
+TABLE#tblSpots 
+{
+	font-size:7pt;
+	font-weight:bold;
+	border:0px solid black;
+	background-color:white;
+	width:100%;
+}
+
+TABLE#tblSpots .trplain 
+{
+	background-color:#d8e8ff;
+}
+
+TABLE#tblSpots .trplainlast 
+{
+	background-color:#d8e8ff;
+	border-bottom:1px solid #808080;
+}
+
+TABLE#tblSpots .trplain_alternate
+{
+	background-color:#f0f0f0;
+}
+
+TABLE#tblSpots .trplainlast_alternate 
+{
+	background-color:#f0f0f0;
+	border-bottom:1px solid #808080;
+}
+
+TABLE#tblSpots SELECT {
+	width:70px;
+	font-size:7pt;
+	font-weight:bold;	
+}
+
+TABLE#tblSpots INPUT.percentagetextbox {	
+	width:38px;
+	font-size:7pt;
+}
+
+/* End spots */
+
+/* Booking results */
+DIV#divResultsHeader 
+{
+	padding:0px;
+	border:1px solid #404040;
+	background-color:#f0f0f0;
+}
+
+DIV#divResultsBody
+{
+	border:1px solid #404040;
+	height:280px;
+	overflow:scroll;
+}
+
+TABLE#tblResults TH
+{
+	text-align:left;
+	margin:0px;
+	padding:2px;
+	background-color:#669CC2;
+	color:White;
+	padding-left:8px;
+}
+
+TABLE#tblResults TD
+{
+	vertical-align:top;
+	border-right:1px solid #e0e0e0;
+	border-bottom:1px solid #e8e8e8;
+	padding-left:8px;
+}
+
+TABLE#tblResults TD IMG
+{
+	vertical-align:bottom;
+}
+/* End Booking results */
+
+/* BEGIN ---- Session totals specific styles ---- */
+.tabSessionTotals {
+    font-family:verdana;
+    font-size:10px;
+    border:1px solid #808080;
+    background-color:white;
+}
+.tabSessionTotals TH {
+    text-decoration:underline;
+	color:White;
+	background-color:#639ABD;
+	font-family:Verdana;
+	font-size:10px;
+	font-weight:bold;
+	white-space:nowrap;
+    padding-left:4px;
+    padding-right:4px;
+}
+.tabSessionTotals TD {
+    background-color:white;
+    border-right:1px dashed #c0c0c0;
+    padding-left:4px;
+    padding-right:4px;
+}
+.tabSessionTotals .rightalign {
+    text-align:right;
+    padding-left:10px;
+    padding-right:2px;
+}
+.tdAmountButton 
+ {
+	border:1px solid #808080;
+	background-color:#f0f0f0;
+	color:Black;
+	cursor:hand;
+	width:60px;
+	padding:2px;
+	vertical-align:middle;
+	text-align:center;
+ }
+/* END ---- Session totals specific styles ---- */
+
+/* Planning Graph */
+.PlanningGraph{	
+	text-align:left;  
+	border: #000000 1px solid; 	
+	width:30px; 
+	height:6px; 
+	background-color:#A5D4E3;
+	font-size:1pt;
+	padding:0px;
+	margin-bottom:2px; 
+}
+.PlanningGraphBar{
+	background-color:#F97566;
+	padding:0px;
+	height:100%;
+	font-size:1pt;
+}
